@@ -1,1 +1,43 @@
+EXP NO:1	
+
+STUDY OF BASIC DIGITAL ICS AND VERIFICATION OF BOOLEAN THEOREMS USING DIGITAL LOGIC GATES
+
+OBJECTIVE:
+
+●	To familiarize with the commonly used basic digital logic gate ICs such as AND, OR, NOT, NAND, NOR, and XOR gates
+●	To understand the pin configuration and internal logic of standard digital ICs (7400, 7402, 7404, 7408, 7432, 7486).
+●	To verify fundamental Boolean algebra theorems using hardware implementation with logic gates.
+
+LEARNING OUTCOMES:
+
+●	Identify and understand the functionality of basic digital logic gates 
+●	Interpret the pin configuration and operation of commonly used digital ICs such as 7400, 7402, 7404, 7408, 7432, and 7486
+●	Verify basic Boolean theorems experimentally using digital logic gates and validate their truth through logic circuits.
+
+COMPONENTS/EQUIPMENTS REQUIRED:
+
+Sl. No	Components	Specifications	Quantity
+1.	IC 7400	Quad 2-input NAND gate	1
+2.	IC 7402	Quad two-input NOR gate 	1
+3.	IC 7404	Hex inverter gate	1
+4.	IC 7408	Quad 2-input AND gate	1
+5.	IC 7432	Quad 2-input OR gate	1
+6	IC 7486	Quad 2-input XOR gate	1
+
+THEORY: 
+
+AND Gate: 
+The AND gate is a basic digital logic gate that outputs HIGH (1) only when all its inputs are HIGH. If any input is LOW (0), the output is LOW. It performs a logical multiplication.
+OR Gate: 
+The OR gate produces an output of HIGH (1) if at least one input is HIGH. The output is LOW only when all inputs are LOW. It performs logical addition.
+NOT Gate (Inverter): 
+This gate, also known as an inverter, produces an output that is the logical complement of the input. If the input is 1, the output is 0; if the input is 0, the output is 1.
+NAND Gate: 
+The NAND gate is the inverse of the AND gate. It gives a LOW (0) output only when all inputs are HIGH. In all other cases, the output is HIGH. It is a universal gate, meaning it can be used to construct any other gate.
+NOR Gate: 
+The NOR gate is the inverse of the OR gate. It gives a HIGH (1) output only when all inputs are LOW. Like NAND, it is also a universal gate.
+XOR Gate (Exclusive OR): 
+The XOR gate outputs HIGH (1) only when the inputs are different (i.e., one is 0 and the other is 1). If both inputs are the same, the output is LOW. It is used in parity checking, arithmetic operations, etc.
+
+
 
