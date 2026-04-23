@@ -20,15 +20,8 @@ LEARNING OUTCOMES:
 
 COMPONENTS/EQUIPMENTS REQUIRED:
 
-![Study of basic digital ICs and verification of Boolean theorems using digital logic gates.](Screenshot 2026-04-23 084547.png)
+![Breadboard Experiment Screenshot](https://raw.githubusercontent.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/main/Part%20A%20-%20Breadboard/Screenshot%202026-04-23%20084547.png)
 
-Sl. No	Components	Specifications	Quantity
-1.	IC 7400	Quad 2-input NAND gate	1
-2.	IC 7402	Quad two-input NOR gate 	1
-3.	IC 7404	Hex inverter gate	1
-4.	IC 7408	Quad 2-input AND gate	1
-5.	IC 7432	Quad 2-input OR gate	1
-6	IC 7486	Quad 2-input XOR gate	1
 
 THEORY: 
 
@@ -50,6 +43,4 @@ The NOR gate is the inverse of the OR gate. It gives a HIGH (1) output only when
 XOR Gate (Exclusive OR): 
 The XOR gate outputs HIGH (1) only when the inputs are different (i.e., one is 0 and the other is 1). If both inputs are the same, the output is LOW. It is used in parity checking, arithmetic operations, etc.
 
-COMPONENTS/EQUIPMENTS REQUIRED: 
-![Breadboard Experiment Screenshot](https://raw.githubusercontent.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/main/Part%20A%20-%20Breadboard/Screenshot%202026-04-23%20084547.png)
 
