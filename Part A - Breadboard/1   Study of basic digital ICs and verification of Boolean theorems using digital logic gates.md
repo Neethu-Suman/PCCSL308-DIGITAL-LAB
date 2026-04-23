@@ -4,15 +4,19 @@ STUDY OF BASIC DIGITAL ICS AND VERIFICATION OF BOOLEAN THEOREMS USING DIGITAL LO
 
 OBJECTIVE:
 
-●	To familiarize with the commonly used basic digital logic gate ICs such as AND, OR, NOT, NAND, NOR, and XOR gates
-●	To understand the pin configuration and internal logic of standard digital ICs (7400, 7402, 7404, 7408, 7432, 7486).
-●	To verify fundamental Boolean algebra theorems using hardware implementation with logic gates.
+●	  To familiarize with the commonly used basic digital logic gate ICs such as AND, OR, NOT, NAND, NOR, and XOR gates.
+
+●	  To understand the pin configuration and internal logic of standard digital ICs (7400, 7402, 7404, 7408, 7432, 7486).
+
+●	  To verify fundamental Boolean algebra theorems using hardware implementation with logic gates.
 
 LEARNING OUTCOMES:
 
-●	Identify and understand the functionality of basic digital logic gates 
-●	Interpret the pin configuration and operation of commonly used digital ICs such as 7400, 7402, 7404, 7408, 7432, and 7486
-●	Verify basic Boolean theorems experimentally using digital logic gates and validate their truth through logic circuits.
+●	  Identify and understand the functionality of basic digital logic gates 
+
+●	  Interpret the pin configuration and operation of commonly used digital ICs such as 7400, 7402, 7404, 7408, 7432, and 7486
+
+●	  Verify basic Boolean theorems experimentally using digital logic gates and validate their truth through logic circuits.
 
 COMPONENTS/EQUIPMENTS REQUIRED:
 
