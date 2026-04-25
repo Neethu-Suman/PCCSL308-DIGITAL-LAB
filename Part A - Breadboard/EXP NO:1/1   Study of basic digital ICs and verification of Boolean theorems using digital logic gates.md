@@ -43,4 +43,8 @@ The NOR gate is the inverse of the OR gate. It gives a HIGH (1) output only when
 **XOR Gate (Exclusive OR):**
 The XOR gate outputs HIGH (1) only when the inputs are different (i.e., one is 0 and the other is 1). If both inputs are the same, the output is LOW. It is used in parity checking, arithmetic operations, etc.
 
+CIRCUIT DIAGRAM, TRUTH TABLE, AND PIN DIAGRAM OF GATES
+
+AND GATE
+  
 
