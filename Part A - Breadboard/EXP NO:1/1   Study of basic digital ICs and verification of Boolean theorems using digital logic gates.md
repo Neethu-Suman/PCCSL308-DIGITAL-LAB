@@ -20,7 +20,7 @@
 
 **COMPONENTS/EQUIPMENTS REQUIRED:**
 
-![Breadboard Experiment Screenshot](https://raw.githubusercontent.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/main/Part%20A%20-%20Breadboard/Screenshot%202026-04-23%20084547.png)
+![Breadboard Experiment Screenshot](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%3A1/Screenshot%202026-04-23%20084547.png)
 
 
 **THEORY:** 
