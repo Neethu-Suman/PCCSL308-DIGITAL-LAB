@@ -50,3 +50,17 @@ The XOR gate outputs HIGH (1) only when the inputs are different (i.e., one is 0
 ![add_gate](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%3A1/add%20gate.png)
   
 
+**DESIGN:**
+
+**Resistor Design:**
+Let,
+ID	= LED forward current in Amps (found in the LED datasheet)
+VD	= LED forward voltage drop in Volts (found in the LED datasheet) VCC	
+= supply voltage
+R	=(VCC-VD)/ID = (5-1.2)/10 = 380 Ω ≈ 330Ω 
+
+**PROCEDURE:**
+
+1.	Wire the circuit as per the diagram on the breadboard.
+2.	Apply various input combinations and observe the output for each one.
+3.	Verify the truth table for each input/ output combination for the gates and Boolean theorem.
