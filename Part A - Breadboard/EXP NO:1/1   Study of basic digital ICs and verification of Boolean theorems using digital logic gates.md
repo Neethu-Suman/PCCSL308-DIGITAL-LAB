@@ -48,7 +48,10 @@ The XOR gate outputs HIGH (1) only when the inputs are different (i.e., one is 0
 **AND GATE**
 
 ![add_gate](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%3A1/add%20gate.png)
-  
+
+**OR GATE**
+
+![or_gate](
 
 **DESIGN:**
 
@@ -87,6 +90,7 @@ R	=(VCC-VD)/ID = (5-1.2)/10 = 380 Ω ≈ 330Ω
 10.	What is the dual of the Boolean expression A + AB = A?
 
 **INFERENCE:**
+
 The basic digital logic gate ICs (7400, 7402, 7404, 7408, 7432, 7486) were familiarized, and their truth table were verified. The Demorgan’s theorem was realized using basic gates, and the truth table was verified.
 
 
