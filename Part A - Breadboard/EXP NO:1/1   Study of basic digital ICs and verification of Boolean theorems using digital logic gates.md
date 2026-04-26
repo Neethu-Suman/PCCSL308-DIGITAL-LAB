@@ -64,3 +64,29 @@ R	=(VCC-VD)/ID = (5-1.2)/10 = 380 Ω ≈ 330Ω
 1.	Wire the circuit as per the diagram on the breadboard.
 2.	Apply various input combinations and observe the output for each one.
 3.	Verify the truth table for each input/ output combination for the gates and Boolean theorem.
+
+**MODEL QUESTIONS:**
+
+1.	Identify the IC numbers and pin configurations for basic logic gates (AND, OR, NOT, NAND, NOR, XOR, XNOR).
+2.	Design and verify the Boolean identity A + A’B = A + B using logic gates.
+3.	Construct the circuit to verify De Morgan’s First Theorem: (A·B)’ = A’ + B’.
+4.	Implement and test the XOR function using only NAND gates.
+5.	Draw the truth table and implement the expression (A + B)’ = A’·B’ using NOR gates only.
+
+**VIVA QUESTIONS:**
+
+1.	What is the difference between combinational and sequential circuits?
+2.	Name any five basic digital ICs and their functions.
+3.	What is the significance of verifying Boolean theorems using logic gates?
+4.	State and verify the Boolean identity A + A = A using logic gates.
+5.	How can you implement an XOR gate using only NAND gates?
+6.	What is De Morgan’s Theorem?
+7.	How do you verify the identity A + AB = A using digital logic gates?
+8.	What is the function of a NOT gate and which IC is used to realize it?
+9.	What is the use of a truth table in logic circuit design?
+10.	What is the dual of the Boolean expression A + AB = A?
+
+**INFERENCE:**
+The basic digital logic gate ICs (7400, 7402, 7404, 7408, 7432, 7486) were familiarized, and their truth table were verified. The Demorgan’s theorem was realized using basic gates, and the truth table was verified.
+
+
