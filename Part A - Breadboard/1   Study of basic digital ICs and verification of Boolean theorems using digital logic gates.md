@@ -47,7 +47,7 @@ The XOR gate outputs HIGH (1) only when the inputs are different (i.e., one is 0
 
 **AND GATE**
 
-![add_gate](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%3A1/add%20gate.png)
+![add_gate](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/add%20gate.png)
 
 **OR GATE**
 
