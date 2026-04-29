@@ -67,6 +67,8 @@ The XOR gate outputs HIGH (1) only when the inputs are different (i.e., one is 0
     
 **VERIFICATION OF BOOLEAN THEOREMS:** 
 
+![t1]()
+
 **DESIGN:**
 
 **Resistor Design:**
