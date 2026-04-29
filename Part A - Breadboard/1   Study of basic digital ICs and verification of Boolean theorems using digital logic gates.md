@@ -57,7 +57,7 @@ The XOR gate outputs HIGH (1) only when the inputs are different (i.e., one is 0
 ![not_gate](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/not%20gate.png)
 
 **NAND GATE**
-![nand_gate]()
+![nand_gate](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/nand%20gate.png)
   
 **NOR GATE**
 ![nor_gate]() 
