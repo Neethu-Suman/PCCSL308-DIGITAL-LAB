@@ -74,10 +74,14 @@ The XOR gate outputs HIGH (1) only when the inputs are different (i.e., one is 0
 **DESIGN:**
 
 **Resistor Design:**
+
 Let,
 ID	= LED forward current in Amps (found in the LED datasheet)
-VD	= LED forward voltage drop in Volts (found in the LED datasheet) VCC	
-= supply voltage
+
+VD	= LED forward voltage drop in Volts (found in the LED datasheet) 
+
+VCC	= supply voltage
+
 R	=(VCC-VD)/ID = (5-1.2)/10 = 380 Ω ≈ 330Ω 
 
 **PROCEDURE:**
