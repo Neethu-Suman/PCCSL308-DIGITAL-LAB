@@ -56,6 +56,16 @@ The XOR gate outputs HIGH (1) only when the inputs are different (i.e., one is 0
 **NOT GATE**
 ![not_gate]()
 
+**NAND GATE**
+
+  
+**NOR GATE**
+  
+
+**XOR GATE**			
+    
+**VERIFICATION OF BOOLEAN THEOREMS:** 
+
 **DESIGN:**
 
 **Resistor Design:**
