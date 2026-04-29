@@ -69,6 +69,8 @@ The XOR gate outputs HIGH (1) only when the inputs are different (i.e., one is 0
 
 ![t1](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/theorem1.png)
 
+![t2](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/theorem2.png)
+
 **DESIGN:**
 
 **Resistor Design:**
