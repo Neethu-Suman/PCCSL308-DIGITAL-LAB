@@ -54,15 +54,16 @@ The XOR gate outputs HIGH (1) only when the inputs are different (i.e., one is 0
 ![or_gate](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/or%20gate.png)
 
 **NOT GATE**
-![not_gate]()
+![not_gate](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/not%20gate.png)
 
 **NAND GATE**
-
+![nand_gate]()
   
 **NOR GATE**
-  
+![nor_gate]() 
 
-**XOR GATE**			
+**XOR GATE**	
+![xor_gate]()
     
 **VERIFICATION OF BOOLEAN THEOREMS:** 
 
