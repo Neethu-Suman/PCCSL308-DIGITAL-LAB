@@ -7,7 +7,7 @@ OBJECTIVE:
 
 LEARNING OUTCOMES:
 
-●	Realize the given SOP or POS expression using universal gates 
+•	Realize the given SOP or POS expression using universal gates 
 
 COMPONENTS/EQUIPMENTS REQUIRED: 
 
