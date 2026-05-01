@@ -10,6 +10,7 @@ LEARNING OUTCOMES:
 •	Realize the given SOP or POS expression using universal gates 
 
 COMPONENTS/EQUIPMENTS REQUIRED: 
+![comp](Part A - Breadboard/EXP NO 2/COMPREQ.png)
 
               
 THEORY: 
