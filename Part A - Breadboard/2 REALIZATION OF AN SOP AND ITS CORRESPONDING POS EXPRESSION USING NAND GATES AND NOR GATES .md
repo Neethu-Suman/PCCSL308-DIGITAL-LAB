@@ -1,20 +1,20 @@
-EXP NO: 2				
-REALIZATION OF AN SOP AND ITS CORRESPONDING POS EXPRESSION USING NAND GATES AND NOR GATES 
+**EXP NO: 2**				
+**REALIZATION OF AN SOP AND ITS CORRESPONDING POS EXPRESSION USING NAND GATES AND NOR GATES** 
 
-OBJECTIVE:
+**OBJECTIVE:**
 
 •	To design and implement the given SOP function F (x2, x1, x0) = Σm(0, 1, 4, 5, 7) using NAND logic and its corresponding POS expression using NOR gates 
 
-LEARNING OUTCOMES:
+**LEARNING OUTCOMES:**
 
 •	Realize the given SOP or POS expression using universal gates 
 
-COMPONENTS/EQUIPMENTS REQUIRED: 
+**COMPONENTS/EQUIPMENTS REQUIRED:** 
 
 ![comp](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%202/COMPREQ.png)
 
               
-THEORY: 
+**THEORY:** 
 
 Logic gates are connected to produce a specified output for certain specified combinations of input variables. With no storage involved, the resulting circuits are referred to as combinational logic. 
 Logic minimization employs various techniques to achieve the simplest gate-level implementation of a logic function. Using Boolean laws, it is possible to minimize digital logic circuits. Since minimization 
@@ -46,9 +46,9 @@ similar to a truth table because it presents all of the possible values of input
 
 ![kmap](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%202/kmap.png)
 
-DESIGN:
+**DESIGN:**
 
-Resistor Design:
+**Resistor Design:**
 
 Let,
 
@@ -59,15 +59,15 @@ VD	= LED forward voltage drop in Volts (found in the LED datasheet) VCC
 
 R	=(VCC-VD)/ID = (5-1.2)/10 = 380 Ω ≈ 330Ω 
 
-PROCEDURE:
+**PROCEDURE:**
 
 1.	Wire the circuit as per the diagram on the breadboard.
 2.	Apply various input combinations and observe the output for each one.
 3.	Verify the truth table for each input/ output combination for both SOP and POS circuits.
 
-CIRCUIT DIAGRAM 
+**CIRCUIT DIAGRAM** 
 
-TRUTH TABLE 	K MAP SIMPLIFICATION
+**TRUTH TABLE                                             	K MAP SIMPLIFICATION**
   
 SOP F1 = x1’ + x2x0
 POS F2 = (x2 + x1’) (x1’ + x0)
@@ -78,14 +78,14 @@ F1 = x1 + x2x0   = x1.(x2x0)
 
 NOR LOGIC FOR POS  F2 = (x2 + x1) (x1 + x0) = (x2 + x1) + (x1 + x0) 
  
-MODEL QUESTIONS:
+**MODEL QUESTIONS:**
 
 1.	Realize the SOP expression: F(A,B,C)=AB’+A’CF using only NAND gates.
 2.	Convert and implement the POS expression: F(A,B,C)=(A+B)(B’+C) using only NOR gates.
 3.	Simplify the Boolean expression using Boolean algebra: F=AB+AB’+A’B and realize it using NAND gates only.
 4.	Design a circuit for the function: F=(A+B’)(A’+C) using NOR gates only. Also, draw the logic diagram.
 
-VIVA QUESTIONS:
+**VIVA QUESTIONS:**
 
 1.	What is the difference between SOP and POS forms?
 2.	Define NAND and NOR gates. Why are they called universal gates?
@@ -98,6 +98,7 @@ VIVA QUESTIONS:
 9.	What will be the output if you connect the inputs of a NAND gate together?
 10.	In practical design, why is minimizing the number of gates used in a circuit important?
 
-INFERENCE:
+**INFERENCE:**
+
 The SOP function F (x2, x1, x0) = Σm(0, 1, 4, 5, 7) was designed and implemented using NAND logic and its corresponding POS expression using NOR gates 
 
