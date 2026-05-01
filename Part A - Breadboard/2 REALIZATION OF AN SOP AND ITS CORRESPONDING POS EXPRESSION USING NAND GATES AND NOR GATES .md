@@ -44,6 +44,8 @@ Karnaugh Map
 The K map provides a systematic method for simplifying Boolean expressions and, if properly used, will produce the simplest SOP and POS expression possible, known as minimum expression. A Karnaugh map is 
 similar to a truth table because it presents all of the possible values of input variables and the resulting output for each value. The K-Map for 2,3 and 4 variables is shown in the following figure
 
+![kmap](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%202/kmap.png)
+
 DESIGN:
 
 Resistor Design:
