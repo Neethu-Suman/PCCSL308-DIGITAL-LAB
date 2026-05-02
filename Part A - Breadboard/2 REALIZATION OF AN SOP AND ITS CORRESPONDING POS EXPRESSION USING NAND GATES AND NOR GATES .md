@@ -67,7 +67,7 @@ R	=(VCC-VD)/ID = (5-1.2)/10 = 380 Ω ≈ 330Ω
 
 **CIRCUIT DIAGRAM** 
 
-**TRUTH TABLE                                             	K MAP SIMPLIFICATION**
+![ck1](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%202/ck1.png)
   
 SOP F1 = x1’ + x2x0
 POS F2 = (x2 + x1’) (x1’ + x0)
