@@ -68,16 +68,9 @@ R	=(VCC-VD)/ID = (5-1.2)/10 = 380 Ω ≈ 330Ω
 **CIRCUIT DIAGRAM** 
 
 ![ck1](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%202/ck1.png)
+
+![ck2](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%202/ck2.png)
   
-SOP F1 = x1’ + x2x0
-POS F2 = (x2 + x1’) (x1’ + x0)
-
-NAND LOGIC FOR SOP - EQUATION AND CIRCUIT DIAGRAM
-
-F1 = x1 + x2x0   = x1.(x2x0)
-
-NOR LOGIC FOR POS  F2 = (x2 + x1) (x1 + x0) = (x2 + x1) + (x1 + x0) 
- 
 **MODEL QUESTIONS:**
 
 1.	Realize the SOP expression: F(A,B,C)=AB’+A’CF using only NAND gates.
