@@ -14,8 +14,6 @@
 
 ![CER](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%203/31.png)
 
-
-
 **THEORY:** 
 
 Digital electronic circuit is classified into combinational logic and sequential logic. Combinational logic output depends on the input levels, whereas sequential logic output
@@ -26,6 +24,7 @@ Depends on the stored levels and also the input levels.
 The storage elements (flip-flops) are devices capable of storing one-bit binary information. The binary info stored in the memory elements at any given time defines the state of the Sequential circuit. 
 The input and the present state of the memory element determine the output. The next state of the storage elements is also a function of external inputs and the present state.
 
+![bd](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%203/32.png)
 **DESIGN:**
 
 **Resistor Design:**
