@@ -12,6 +12,8 @@
 
 **COMPONENTS/EQUIPMENTS REQUIRED:** 
 
+![CER](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%203/31.png)
+
 
 
 **THEORY:** 
