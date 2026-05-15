@@ -77,6 +77,13 @@ The XOR gate outputs HIGH (1) only when the inputs are different (i.e., one is 0
 3.	Add flag to each input and output.
 4.	Verify the truth table and analyse the waveform for each input/ output combination for the gates and the Boolean theorem
 
+**EXPECTED OUTPUT:**
+
+**AND GATE**
+
+**CIRCUIT DIAGRAM**
+
+
 **MODEL QUESTIONS:**
 1.	Design and simulate a logic circuit for the expression:
 F=A⋅(B+C′) using CircuitVerse and observe the output waveform.
