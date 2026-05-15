@@ -70,48 +70,35 @@ The XOR gate outputs HIGH (1) only when the inputs are different (i.e., one is 0
 
 ![t2](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/theorem2.png)
 
-**DESIGN:**
-
-**Resistor Design:**
-
-Let,
-ID	= LED forward current in Amps (found in the LED datasheet)
-
-VD	= LED forward voltage drop in Volts (found in the LED datasheet) 
-
-VCC	= supply voltage
-
-R	=(VCC-VD)/ID = (5-1.2)/10 = 380 Ω ≈ 330Ω 
-
 **PROCEDURE:**
 
-1.	Wire the circuit as per the diagram on the breadboard.
-2.	Apply various input combinations and observe the output for each one.
-3.	Verify the truth table for each input/ output combination for the gates and Boolean theorem.
+1.	Add the input, output, and gates from the circuit elements according to the circuit diagram.
+2.	Connect the circuit as per the logic diagram.
+3.	Add flag to each input and output.
+4.	Verify the truth table and analyse the waveform for each input/ output combination for the gates and the Boolean theorem
 
 **MODEL QUESTIONS:**
-
-1.	Identify the IC numbers and pin configurations for basic logic gates (AND, OR, NOT, NAND, NOR, XOR, XNOR).
-2.	Design and verify the Boolean identity A + A’B = A + B using logic gates.
-3.	Construct the circuit to verify De Morgan’s First Theorem: (A·B)’ = A’ + B’.
-4.	Implement and test the XOR function using only NAND gates.
-5.	Draw the truth table and implement the expression (A + B)’ = A’·B’ using NOR gates only.
+1.	Design and simulate a logic circuit for the expression:
+F=A⋅(B+C′) using CircuitVerse and observe the output waveform.
+2.	Verify De Morgan’s Theorem using logic gates: using CircuitVerse simulation. Capture the waveform and explain the result.
+3.	Construct the truth table and waveform for the XOR gate using basic logic gates in CircuitVerse.
+4.	Simulate and analyze the waveform of the circuit: F (A+B)′⋅C using CircuitVerse.
+5.	Design a circuit to demonstrate the associative law of Boolean algebra:
+A+(B+C)=(A+B)+C using logic gates and verify it using simulation.
 
 **VIVA QUESTIONS:**
-
-1.	What is the difference between combinational and sequential circuits?
-2.	Name any five basic digital ICs and their functions.
-3.	What is the significance of verifying Boolean theorems using logic gates?
-4.	State and verify the Boolean identity A + A = A using logic gates.
-5.	How can you implement an XOR gate using only NAND gates?
-6.	What is De Morgan’s Theorem?
-7.	How do you verify the identity A + AB = A using digital logic gates?
-8.	What is the function of a NOT gate and which IC is used to realize it?
-9.	What is the use of a truth table in logic circuit design?
-10.	What is the dual of the Boolean expression A + AB = A?
+1.	What is CircuitVerse, and what are its primary uses?
+2.	Explain the working of the XOR gate using basic gates.
+3.	What are the fundamental theorems of Boolean algebra? Name any two.
+4.	What is the significance of waveform analysis in logic circuit simulation?
+5.	How can De Morgan’s Theorems be verified using logic gates in a circuit simulator?
+6.	What is the difference between combinational and sequential circuits?
+7.	Name any five basic digital ICs and their functions.
+8.	What is the significance of verifying Boolean theorems using logic gates?
+9.	State and verify the Boolean identity A + A = A using logic gates.
+10.	How can you implement an XOR gate using only NAND gates?
 
 **INFERENCE:**
-
-The basic digital logic gate ICs (7400, 7402, 7404, 7408, 7432, 7486) were familiarized, and their truth table were verified. The Demorgan’s theorem was realized using basic gates, and the truth table was verified.
+The circuit simulation software (Circuitverse.org) was familiarized. The basic digital logic gates (AND, OR, NOT, NAND, NOR, XNOR, and XOR gates) were simulated using circuit simulation software, their truth table were verified, and their waveforms were analyzed. The Demorgan’s theorem was successfully verified by designing and simulating logic circuits using basic gates in circuit simulation software
 
 
