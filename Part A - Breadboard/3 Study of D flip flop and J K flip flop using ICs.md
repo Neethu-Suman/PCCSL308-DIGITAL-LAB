@@ -50,6 +50,7 @@ IC7474 D Flip-flop pin diagram and Truth table
 ![IC74](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%203/33.png)
  
 IC7473 J-K Flip-flop pin diagram and truth table
+![IC73](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%203/34.png)
  
 **MODEL QUESTIONS**
 
