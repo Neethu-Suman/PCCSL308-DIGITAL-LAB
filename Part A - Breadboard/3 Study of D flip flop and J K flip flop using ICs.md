@@ -47,12 +47,8 @@ R	=(VCC-VD)/ID = (5-1.2)/10 = 380 Ω ≈ 330Ω
 **CIRCUIT DIAGRAM** 
 
 IC7474 D Flip-flop pin diagram and Truth table 
-
+![IC74](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%203/33.png)
  
-X Either LOW or HIGH Logic Level
-↑ Positive-going transition of the clock.
-Q0 The output logic level of Q before the indicated input conditions were established.
-
 IC7473 J-K Flip-flop pin diagram and truth table
  
 **MODEL QUESTIONS**
