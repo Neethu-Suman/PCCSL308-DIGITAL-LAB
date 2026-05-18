@@ -93,6 +93,10 @@ The XOR gate outputs HIGH (1) only when the inputs are different (i.e., one is 0
 
 ![NOT](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/3%20NOT%20GATE.png)
 
+**XOR GATE**
+
+![XOR](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/4%20XOR%20GATE.png)
+
 
 
 **MODEL QUESTIONS:**
