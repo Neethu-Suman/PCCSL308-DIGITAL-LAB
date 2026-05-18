@@ -103,7 +103,7 @@ The XOR gate outputs HIGH (1) only when the inputs are different (i.e., one is 0
 
 **NOR GATE**
 
-![NOR]()
+![NOR](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/6%20NOR%20GATE.png)
 **MODEL QUESTIONS:**
 1.	Design and simulate a logic circuit for the expression:
 F=A⋅(B+C′) using CircuitVerse and observe the output waveform.
