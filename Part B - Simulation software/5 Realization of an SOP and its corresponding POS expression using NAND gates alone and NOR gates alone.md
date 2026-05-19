@@ -60,8 +60,8 @@ The K map provides a systematic method for simplifying Boolean expressions and, 
 4.	Verify the truth table and analyse the waveform for each input/ output combination for both NAND-only and NOR gate-only circuits of SOP format and POS format of the given function
 
 **CIRCUIT DIAGRAM**
-<img width="908" height="441" alt="image" src="https://github.com/user-attachments/assets/da321c0b-51ee-47fb-a630-89975074515f" />
 
+![CD](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%205/ck1.png)
 
 **EXPECTED OUTPUT:**
  
