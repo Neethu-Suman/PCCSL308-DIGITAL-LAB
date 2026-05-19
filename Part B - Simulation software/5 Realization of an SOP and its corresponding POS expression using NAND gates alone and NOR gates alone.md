@@ -65,6 +65,8 @@ The K map provides a systematic method for simplifying Boolean expressions and, 
 
 ![CD1](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%205/CK2.png)
 
+![CD2](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%205/CK3.png)
+
 **EXPECTED OUTPUT:**
  
 **MODEL QUESTIONS:**
