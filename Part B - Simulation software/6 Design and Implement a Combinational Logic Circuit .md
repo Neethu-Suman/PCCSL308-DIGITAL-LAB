@@ -69,7 +69,10 @@ Full Subtractor is a subtractor that subtracts three inputs and produces two out
 **CIRCUIT DIAGRAM:**
 
 **Binary to Gray code converter**
+
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/BGC%20CKT.png" width ="300">
  
+
 **Half Adder:**
 **Truth Table:**
  
