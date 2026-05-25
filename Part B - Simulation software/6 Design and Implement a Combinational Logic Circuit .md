@@ -71,22 +71,27 @@ Full Subtractor is a subtractor that subtracts three inputs and produces two out
 **Binary to Gray code converter**
 
 <img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/BGC%20CKT.png" width ="300">
- 
 
 **Half Adder:**
+
 **Truth Table:**
- 
+
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/HA%20TT.png" width ="300">
+
 Using AOI Logic:  S = A’B + AB’ C =AB
  
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/HA%20CKT.png" width ="300">
 
 **Full Adder:**
+
 **Truth Table:**
+
 
  
 **Using AOI Logic**
 
  
-
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/FA%20CKT.png" width ="300">
  
 
 Half Subtractor:
