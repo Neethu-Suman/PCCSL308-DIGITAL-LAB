@@ -85,13 +85,13 @@ Using AOI Logic:  S = A’B + AB’ C =AB
 **Full Adder:**
 
 **Truth Table:**
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/FA%20TT.png" width ="300">
 
-
- 
 **Using AOI Logic**
 
- 
-<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/FA%20CKT.png" width ="300">
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/FA%20EQN.png" width ="400">
+
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/FA%20CKT.png" width ="400">
  
 
 Half Subtractor:
