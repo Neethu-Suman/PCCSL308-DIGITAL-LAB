@@ -53,10 +53,11 @@ Half subtractors perform a simple binary subtraction of 2 bits, producing 2 outp
  
 <img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/HS.png" width ="300">
 
-
 Full Subtractor:
 
 Full Subtractor is a subtractor that subtracts three inputs and produces two outputs. The first two inputs are A and B, and the third input is an input borrow as B-IN. The output borrow is designated as B-OUT and the normal output is designated as D which is Difference. The full subtractor is shown in the block diagram in following figure.
+
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/FS.png" width ="300">
  
 **PROCEDURE:**
 
