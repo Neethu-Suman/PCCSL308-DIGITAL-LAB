@@ -24,17 +24,21 @@ circuitverse.org
 
 **Binary to Gray code converter**
 
+<img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/bgc.png" width ="300">
+
 By putting the MSB of 1 below the axis and the MSB of 1 above the axis and reflecting the (n-1) bit code about an axis after 2n-1 rows, we can obtain the n-bit gray code. Let b0, b1, b2, and b3 be the bits representing the binary numbers, where b0 is the LSB and b3 is the MSB, and let g0, g1, g2, and g3 be the bits representing the gray code of the binary numbers, where g0 is the LSB and g3 is the MSB.
 To find the corresponding digital circuit, the K-Map technique is used, where each of the gray code bits serves as output and all the binary bits serve as input. 
 Using the K-map method to design the logical circuit for the conversion of binary to gray code:
-            
+
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/kmap.png" width ="300">            
                
 g3= b3	g2= b2b3’+b3b2’=b2⊕b3	g1=b2b1’+b1b2’=b1⊕b2        g0=b0b1’+b1b0’=b0⊕b1
 
 **Half Adder:**
 
 Half adders perform a simple binary addition of 2 bits, producing 2 outputs, the sum bit (S) and carry bit (C). The half adder is shown in the block diagram in the following figure
- 
+
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/HA.png" width ="300">
 
 **Full Adder:**
 
