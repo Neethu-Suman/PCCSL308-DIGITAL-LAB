@@ -104,10 +104,15 @@ Using AOI Logic  	d=A’B+AB’ 	b=A’B
 
 <img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/HS%20CKT.png" width ="400">
    
-Full Subtractor:
-Truth Table:
+**Full Subtractor:**
+
+**Truth Table:**
+
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/FS%20TT.png" width ="400">
  
 Using AOI Logic
+
+https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/FS%20EQN.png
    
  
 EXPECTED OUTPUT:
