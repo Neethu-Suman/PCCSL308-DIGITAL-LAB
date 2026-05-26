@@ -133,13 +133,12 @@ Using AOI Logic
 **Half Subtractor:**
 
 <img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/HS%20OUT.png" width ="200">
- 
 
+**Full Subtractor:**
 
-Full Subtractor:
- 
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/FS%20OUT.png" width ="400">
 
-MODEL QUESTIONS:
+**MODEL QUESTIONS:**
 
 1.	Design and simulate a 3-bit Binary to Gray code converter using logic gates.
 2.	Design and simulate a 4-bit Gray to Binary code converter using logic gates.
@@ -148,7 +147,7 @@ MODEL QUESTIONS:
 5.	Design and simulate a Full Subtractor using NAND gates only.
 6.	Design and simulate a half adder and half subtractor using NAND gates only.
 
-VIVA QUESTIONS:
+**VIVA QUESTIONS:**
 
 1.	What is the key difference between Binary code and Gray code? Why is Gray code used?
 2.	What are the outputs of a Half Adder? Can it handle carry from previous stages? Why/why not?
@@ -161,7 +160,7 @@ VIVA QUESTIONS:
 9.	Why are combinational circuits different from sequential circuits? Give one key difference.
 10.	What real-world applications use Gray code and full adders/subtractors?
 
-INFERENCE:
+**INFERENCE:**
 
 The Binary to Gray code converter, Half Adder, Full Adder, Half Subtractor, and Full Subtractor circuits were designed using basic logic gates and simulated using circuit simulation software
 
