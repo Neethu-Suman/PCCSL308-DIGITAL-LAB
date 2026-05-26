@@ -124,14 +124,15 @@ Using AOI Logic
 
 **Half Adder:**
 
-<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/HA%20OUT.png" width ="400">
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/HA%20OUT.png" width ="300">
 
 **Full Adder:**
 
 <img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/FA%20OUT.png" width ="400">
 
-Half Subtractor:
+**Half Subtractor:**
 
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/HS%20OUT.png" width ="200">
  
 
 
