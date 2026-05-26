@@ -122,8 +122,10 @@ Using AOI Logic
 
 <img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/BGC%20OUT.png" width ="400">
 
-Half Adder:
- 
+**Half Adder:**
+
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/HA%20OUT.png" width ="400">
+
 
 Full Adder:
  
