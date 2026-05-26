@@ -112,10 +112,11 @@ Using AOI Logic  	d=A’B+AB’ 	b=A’B
  
 Using AOI Logic
 
-https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/FS%20EQN.png
-   
- 
-EXPECTED OUTPUT:
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/FS%20EQN.png" width ="400">
+
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/FS%20CKT.png" width ="400">
+
+**EXPECTED OUTPUT:**
 
 Binary to Gray code converter
 
