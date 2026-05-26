@@ -118,10 +118,9 @@ Using AOI Logic
 
 **EXPECTED OUTPUT:**
 
-Binary to Gray code converter
+**Binary to Gray code converter**
 
- 
-
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%206/BGC%20OUT.png" width ="400">
 
 Half Adder:
  
