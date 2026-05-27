@@ -110,51 +110,7 @@ endmodule
 4.	Simulate the Design
 5.	Observe Waveforms / Console Outputs
 
-OUTPUT:
-
-1.	Gate level modelling
-
-
-
-
-
-
-
-
-
-2.	Behavioral modelling 
-
-
-
-
-
-
-
-
-
-3.	Structural modelling 
-
-
-
-
-
-
-
-
-
-
-4.	Dataflow modelling  
-
-
-
-
-
-
-
-
-
-
-MODEL QUESTIONS:
+**MODEL QUESTIONS:**
 
 1.	Write a Verilog program for AND, OR, and NOT gates using Gate-level modeling.
 2.	Write a Verilog program for AND, OR, and NOT gates using Behavioral modeling.
@@ -163,7 +119,7 @@ MODEL QUESTIONS:
 5.	Write a Verilog program for a 2-input XOR gate using all four modeling styles.
 6.	Write a testbench in Verilog to verify the outputs of AND, OR, and NOT gates.
 
-VIVA QUESTIONS:
+**VIVA QUESTIONS:**
 
 1.	What is Verilog HDL and why is it used?
 2.	What is the difference between Behavioral, Dataflow, Gate-level, and Structural modeling?
@@ -177,7 +133,8 @@ VIVA QUESTIONS:
 10.	Compare Gate-level modeling and Structural modeling in Verilog.
 11.	What happens if we don’t declare reg type in Behavioral modeling?
 
-INFERENCE:
+**INFERENCE:**
+
 Modeled AND, OR, NOT gates in the following four Verilog modeling methods, and their truth tables were verified.
 1.	Gate level modelling
 2.	Behavioral modelling 
