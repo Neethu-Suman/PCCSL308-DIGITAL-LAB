@@ -48,15 +48,18 @@ This gate, also known as an inverter, produces an output that is the logical com
 
 <img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/not%20gate.png">
 
-VERILOG CODE:
-1. Gate-Level Modeling
+**VERILOG CODE:**
+
+**1. Gate-Level Modeling**
+
 module gates_gatelevel (    input  wire A, B,    output wire Y_and, Y_or, Y_not);
     and g1(Y_and, A, B);   // AND gate
     or  g2(Y_or,  A, B);   // OR gate
     not g3(Y_not, A);      // NOT gate (only one input)
 endmodule
 
-2. Behavioral Modeling
+**2. Behavioral Modeling**
+
 module gates_behavioral ( input  wire A, B,     output reg  Y_and, Y_or, Y_not);
     always @ (A or B) begin
         Y_and = A & B;   // AND operation
@@ -65,7 +68,8 @@ module gates_behavioral ( input  wire A, B,     output reg  Y_and, Y_or, Y_not);
     end
 endmodule
 
-3. Structural Modeling
+**3. Structural Modeling**
+
 // Submodules
 module and_gate(output Y, input A, B);
     assign Y = A & B;
@@ -87,7 +91,8 @@ module gates_structural ( input  wire A, B,   output wire Y_and, Y_or, Y_not
     not_gate u3(Y_not, A);
 endmodule
 
-4. Dataflow Modeling
+**4. Dataflow Modeling**
+
 module gates_dataflow (
     input  wire A, B,
     output wire Y_and, Y_or, Y_not
@@ -97,7 +102,7 @@ module gates_dataflow (
     assign Y_not = ~A;      // NOT gate
 endmodule
 
-PROCEDURE:
+**PROCEDURE:**
 
 1.	Start the Verilog Simulator / IDE
 2.	Write Verilog Code for Basic Gates for each modeling
