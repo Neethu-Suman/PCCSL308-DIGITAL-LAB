@@ -35,10 +35,14 @@ The OR gate produces an output of HIGH (1) if at least one input is HIGH. The ou
 This gate, also known as an inverter, produces an output that is the logical complement of the input. If the input is 1, the output is 0; if the input is 0, the output is 1.
 
 **CIRCUIT DIAGRAM:**
+
 **AND GATE**
-<https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/add%20gate.png>
+
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/add%20gate.png" width ="300">
  
-OR GATE
+**OR GATE**
+
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/add%20gate.png" width ="300">
  
 NOT GATE
  
