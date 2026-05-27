@@ -44,8 +44,10 @@ This gate, also known as an inverter, produces an output that is the logical com
 
 <img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/or%20gate.png">
  
-NOT GATE
- 
+**NOT GATE**
+
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/not%20gate.png">
+
 VERILOG CODE:
 1. Gate-Level Modeling
 module gates_gatelevel (    input  wire A, B,    output wire Y_and, Y_or, Y_not);
