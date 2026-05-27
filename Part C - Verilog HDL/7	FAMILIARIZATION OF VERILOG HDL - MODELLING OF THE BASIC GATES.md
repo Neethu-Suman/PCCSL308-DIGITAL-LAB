@@ -36,6 +36,7 @@ This gate, also known as an inverter, produces an output that is the logical com
 
 **CIRCUIT DIAGRAM:**
 **AND GATE**
+<https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/add%20gate.png>
  
 OR GATE
  
