@@ -86,9 +86,51 @@ R	=(VCC-VD)/ID = (5-1.2)/10 = 380 Ω ≈ 330Ω
 
 **PROCEDURE:**
 
-1.	Wire the circuit as per the diagram on the breadboard.
-2.	Apply various input combinations and observe the output for each one.
-3.	Verify the truth table for each input/ output combination for the gates and Boolean theorem.
+A. Study of Basic Digital ICs
+  
+  1.	Identify the ICs to be used (e.g., 7400, 7402, 7408, 7432, 7486).
+
+2.	Note the pin configuration of each IC from the datasheet.
+
+3.	Insert the IC properly into the breadboard without bending pins.
+
+4.	Provide power supply connections:
+
+    ○	Vcc (+5V) → Pin 14 (for TTL ICs).
+
+    ○	Ground (0V) → Pin 7.
+
+5.	Connect input switches or wires to the input pins of the gate.
+
+6.	Connect LED/logic probe to the output pins to observe the results.
+
+7.	Verify the truth table of each gate by applying all possible inputs and recording the outputs.
+
+B. Verification of Boolean Theorems
+
+  1.	Choose a Boolean theorem to be verified (e.g., De Morgan’s theorem, Idempotent law, Absorption law).
+
+2.	Express the theorem in two forms – Left-Hand Side (LHS) and Right-Hand Side (RHS).
+
+○	Example: For De Morgan’s theorem, (AB)’ = A’ + B’.
+
+3.	Construct LHS circuit using basic gates (AND → NOT).
+
+4.	Construct RHS circuit using basic gates (NOT + OR).
+
+5.	Apply all possible input combinations (00, 01, 10, 11 for two variables).
+
+6.	Record outputs of LHS and RHS circuits in a truth table.
+
+7.	Compare outputs of both sides; if they match for all inputs, the theorem is verified.
+
+C. Tabulation & Observation
+●	Prepare a truth table with input columns (A, B, …) and output columns (LHS, RHS).
+
+●	Enter observed values for each input condition.
+
+●	Ensure LHS = RHS for theorem verification.
+
 
 **MODEL QUESTIONS:**
 
