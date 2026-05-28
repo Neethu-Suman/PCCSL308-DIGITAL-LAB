@@ -40,9 +40,43 @@ R	=(VCC-VD)/ID = (5-1.2)/10 = 380 Ω ≈ 330Ω
 
 **PROCEDURE:**
 
-1.	Wire the circuit as per the diagram on the breadboard.
-2.	Apply various input combinations and observe the output for each one.
-3.	Verify the truth table for each input/ output combination for both D and JK flip-flops
+A. D Flip-Flop (using IC 7474)
+ 
+ 1.	Connect the IC 7474 on the breadboard and identify its pin configuration from the datasheet.
+ 2.	Connect Vcc (+5V) and Ground (0V) to the respective pins of the IC.
+ 3.	Connect the preset (PRE) and clear (CLR) inputs to logic HIGH (disable) unless required for testing.
+ 4.	Apply the clock signal from a function generator to the clock pin (CLK).
+ 5.	Connect the D input through logic switches (for 0/1 input selection).
+ 6.	Connect the Q and Q̅ outputs to LEDs or logic probes for observation.
+ 7.	Change the D input (0 or 1) and observe the output Q at the rising edge of the clock pulse.
+ 8.	Verify the operation with the truth table of the D flip-flop.
+
+B. JK Flip-Flop (using IC 7476 / IC 7473)
+ 
+ 1.	Place the IC 7476 (dual JK flip-flop with preset and clear) on the breadboard.
+ 2.	Connect Vcc (+5V) and Ground (0V) to the IC.
+ 3.	Connect preset (PRE) and clear (CLR) to logic HIGH (inactive) unless testing their functions.
+ 4.	Apply a clock signal to the clock input pin.
+ 5.	Provide J and K inputs through logic switches.
+ 6.	Connect the Q and Q̅ outputs to LEDs or logic probes for observation.
+ 7.	Apply different combinations of J and K inputs (00, 01, 10, 11) and observe the output at the rising edge of the clock.
+ 8.	Verify the output with the truth table of the JK flip-flop.
+    
+     ○	J=0, K=0 → No change
+   	
+     ○	J=0, K=1 → Reset
+   	
+     ○	J=1, K=0 → Set
+   	
+     ○	J=1, K=1 → Toggle
+
+C. Verification
+   
+   ●	Record input/output observations in the lab observation table.
+   
+   ●	Compare results with the theoretical truth tables of D and JK flip-flops.
+   
+   ●	Conclude the practical verification of flip-flop operation.
 
 **CIRCUIT DIAGRAM** 
 
