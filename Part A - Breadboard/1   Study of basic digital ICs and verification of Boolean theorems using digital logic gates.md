@@ -112,7 +112,7 @@ B. Verification of Boolean Theorems
 
 2.	Express the theorem in two forms – Left-Hand Side (LHS) and Right-Hand Side (RHS).
 
-○	Example: For De Morgan’s theorem, (AB)’ = A’ + B’.
+    ○	Example: For De Morgan’s theorem, (AB)’ = A’ + B’.
 
 3.	Construct LHS circuit using basic gates (AND → NOT).
 
@@ -125,7 +125,8 @@ B. Verification of Boolean Theorems
 7.	Compare outputs of both sides; if they match for all inputs, the theorem is verified.
 
 C. Tabulation & Observation
-●	Prepare a truth table with input columns (A, B, …) and output columns (LHS, RHS).
+
+   ●	Prepare a truth table with input columns (A, B, …) and output columns (LHS, RHS).
 
 ●	Enter observed values for each input condition.
 
