@@ -143,16 +143,52 @@ C. Tabulation & Observation
 
 **VIVA QUESTIONS:**
 
-1.	What is the difference between combinational and sequential circuits?
-2.	Name any five basic digital ICs and their functions.
-3.	What is the significance of verifying Boolean theorems using logic gates?
-4.	State and verify the Boolean identity A + A = A using logic gates.
-5.	How can you implement an XOR gate using only NAND gates?
-6.	What is De Morgan’s Theorem?
-7.	How do you verify the identity A + AB = A using digital logic gates?
-8.	What is the function of a NOT gate and which IC is used to realize it?
-9.	What is the use of a truth table in logic circuit design?
-10.	What is the dual of the Boolean expression A + AB = A?
+1.	What is an Integrated Circuit (IC)?
+ → An IC is a small electronic device made of semiconductor material that contains many logic gates or electronic components in a compact package.
+
+2.	What is the difference between SSI, MSI, and LSI ICs?
+ → SSI (Small Scale Integration): Few gates (1–10).
+ → MSI (Medium Scale Integration): 10–100 gates (encoders, decoders).
+ → LSI (Large Scale Integration): Hundreds to thousands of gates (microprocessors).
+
+3.	What is the logic family used in basic digital ICs?
+ → TTL (Transistor–Transistor Logic) and CMOS are the most common families.
+
+4.	What is the IC number of basic gates?
+ → IC 7400 → NAND gate, IC 7402 → NOR gate, IC 7408 → AND gate, IC 7432 → OR gate, IC 7486 → XOR gate.
+
+5.	Why are NAND and NOR called universal gates?
+ → Because any Boolean function can be implemented using only NAND or only NOR gates.
+6.	State and verify the Idempotent Law.
+ → A + A = A, A·A = A. Verified by using OR/AND gates.
+
+7.	What is the Absorption Law?
+ → A + AB = A, A(A + B) = A.
+
+8.	What is the De Morgan’s Theorem?
+ → (A·B)’ = A’ + B’, and (A + B)’ = A’·B’.
+
+9.	How can you prove theorems using truth tables?
+ → By comparing input-output combinations of both sides of the Boolean expression.
+
+10.	What is the duality principle in Boolean algebra?
+ → Every Boolean equation remains valid if we interchange + ↔ · and 0 ↔ 1 simultaneously.
+
+11.	What is a truth table?
+ → A table that lists all possible input combinations and their corresponding outputs.
+
+12.	How can you implement an OR gate using NAND gates?
+ → By using De Morgan’s theorem and connecting NAND gates appropriately.
+
+13.	How can you implement an AND gate using only NOR gates?
+ → By applying double negation and Boolean algebra transformations.
+
+14.	What is the importance of verifying Boolean theorems in the lab?
+ → To understand simplification of logic circuits, reduce hardware, and optimize design.
+
+15.	How do you check whether a digital IC is working properly?
+ → By applying known inputs (0 and 1), observing outputs, and comparing with the truth table.
+
 
 **INFERENCE:**
 
