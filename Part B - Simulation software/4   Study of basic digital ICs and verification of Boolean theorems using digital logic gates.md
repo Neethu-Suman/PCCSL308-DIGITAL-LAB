@@ -196,6 +196,11 @@ Common Applications in CircuitVerse:
 
 ![NXOR](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/7%20NXOR%20GATE.png)
 
+Realize a given Boolean function using basic gates and verify the waveform with the truth table.
+
+To design and implement the given SOP function F (x2, x1, x0) = Σm(0, 1, 4, 5, 7). Using basic gate
+
+
 **MODEL QUESTIONS:**
 1.	Design and simulate a logic circuit for the expression:
 F=A⋅(B+C′) using CircuitVerse and observe the output waveform.
