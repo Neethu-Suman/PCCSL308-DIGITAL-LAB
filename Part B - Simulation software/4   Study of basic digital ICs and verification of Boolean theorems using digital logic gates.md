@@ -170,37 +170,37 @@ Common Applications in CircuitVerse:
 
 **AND GATE**
 
-![AN](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/1%20AND%20gate.png)
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/1%20AND%20gate.png" width = "400">
 
 **OR GATE**
 
-![OR](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/2%20OR%20GATE.png)
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/2%20OR%20GATE.png" width = "400">
 
 **NOT GATE**
 
-![NOT](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/3%20NOT%20GATE.png)
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/3%20NOT%20GATE.png" width = "400">
 
 **XOR GATE**
 
-![XOR](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/4%20XOR%20GATE.png)
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/4%20XOR%20GATE.png" width = "400">
 
 **NAND GATE**
 
-![NA](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/5%20NAND%20gate.png)
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/5%20NAND%20gate.png" width = "400">
 
 **NOR GATE**
 
-![NOR](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/6%20NOR%20GATE.png)
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/6%20NOR%20GATE.png" width = "400">
 
 **NXOR GATE**
 
-![NXOR](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/7%20NXOR%20GATE.png)
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/7%20NXOR%20GATE.png" width = "400">
 
 Realize a given Boolean function using basic gates and verify the waveform with the truth table.
 
 To design and implement the given SOP function F (x2, x1, x0) = Σm(0, 1, 4, 5, 7). Using basic gate
 
-![tt](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/tt.png)
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/tt.png" width = "400">
 
 
 **MODEL QUESTIONS:**
