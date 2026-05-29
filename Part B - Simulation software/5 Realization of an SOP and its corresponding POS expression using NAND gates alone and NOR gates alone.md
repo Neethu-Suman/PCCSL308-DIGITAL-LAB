@@ -83,16 +83,50 @@ The K map provides a systematic method for simplifying Boolean expressions and, 
 
 **VIVA QUESTIONS:**
 
-1.	What is a minterm and a maxterm? How are they used in SOP and POS expressions?
-2.	Why do we implement logic circuits using only NAND or only NOR gates?
-3.	What does a universal gate mean?
-4.	How is De Morgan's Theorem used in designing NAND or NOR-only logic?
-5.	What are the steps to design a Boolean function using NAND gates only?
-6.	Can every Boolean function be implemented using only NAND or only NOR gates? Explain.
-7.	How do you verify that the output of your simulated circuit matches the truth table?
-8.	What is the main difference between SOP and POS implementations in hardware?
-9.	Which gate configuration is more efficient for hardware implementation—NAND or NOR? Why?
-10.	What did you observe during the simulation? Did the SOP-NAND and POS-NOR circuits produce the same output?
+1.	What is the given Boolean function to implement?
+
+    F(x2,x1,x0)=Σm(0,1,4,5,7)F(x_2, x_1, x_0) = \Sigma m(0, 1, 4, 5, 7)F(x2,x1,x0)=Σm(0,1,4,5,7)
+
+2.	What does Σm(0, 1, 4, 5, 7) represent?
+
+    It represents the minterms where the function output is 1 — these are the combinations for which the output of F is HIGH (1).
+  	
+3.	What is an SOP expression?
+
+    SOP (Sum of Products) is a form where logical AND terms (products) are ORed together to form the Boolean function.
+  	
+4.	What is a POS expression?
+
+    POS (Product of Sums) is a form where logical OR terms (sums) are ANDed together to form the Boolean function.
+  	
+5.	How do you find the POS form from the given minterms?
+
+    Find the maxterms (where output is 0). For F = Σm(0, 1, 4, 5, 7), the maxterms are at indices not included: 2, 3, 6 → F = ΠM(2, 3, 6)
+  	
+6.	What is a universal gate?
+
+    A universal gate is a gate that can be used to implement any Boolean function. NAND and NOR gates are universal.
+  	
+7.  What tool can be used to simulate the given circuit?
+
+    Tools like CircuitVerse, Logisim, Multisim, or Proteus can be used for digital simulation.
+
+8.	How do you verify the logic circuit is working correctly?
+
+    By comparing the output waveform or simulation result with the expected truth table of the function.
+
+9.	What is a waveform in digital logic simulation?
+
+    A graphical representation of the logic levels (0 or 1) of signals over time.
+
+10.	How many input combinations are possible for a 3-variable Boolean function?
+
+    23=82^3 = 823=8 combinations.
+
+11.	What is the importance of truth tables in circuit design?
+
+    Truth tables help verify whether the circuit output matches the expected logic function for all possible input combinations.
+
 
 **INFERENCE:**
 The SOP function F (x2, x1, x0) = Σm(0, 1, 4, 5, 7) was designed and implemented using NAND logic and its corresponding POS expression using NOR gates. The two circuits were simulated using the circuit simulation software
