@@ -132,8 +132,7 @@ Common Applications in CircuitVerse:
 **CIRCUIT DIAGRAM, TRUTH TABLE, AND PIN DIAGRAM OF GATES**
 
 **AND GATE**
-
-<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/add%20gate.png", width = "400">
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/add%20gate.png" width = "400">
 
 **OR GATE**
 
