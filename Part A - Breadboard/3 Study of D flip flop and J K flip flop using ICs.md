@@ -98,19 +98,19 @@ IC7473 J-K Flip-flop pin diagram and truth table
 
 1. What is a flip-flop?
 
- ●	Answer: A flip-flop is a bistable multivibrator circuit that can store one bit of information, having two stable states (0 and 1).
+   ●	Answer: A flip-flop is a bistable multivibrator circuit that can store one bit of information, having two stable states (0 and 1).
 
 2. What is the difference between a latch and a flip-flop?
  
- ●	Answer: A latch is level-triggered (output changes with the input as long as the enable signal is active), whereas a flip-flop is edge-triggered (output changes only at the clock edge)
+   ●	Answer: A latch is level-triggered (output changes with the input as long as the enable signal is active), whereas a flip-flop is edge-triggered (output changes only at the clock edge)
 
 3. What is the characteristic equation of a D flip-flop?
 
- ●	Answer: The characteristic equation is Qnext=DQ_{next} = DQnext=D. This means the next state of the output simply follows the D input at the active clock edge.
+   ●	Answer: The characteristic equation is Qnext=DQ_{next} = DQnext=D. This means the next state of the output simply follows the D input at the active clock edge.
 
 4. What is the function of a JK flip-flop?
 
- ●	Answer: The JK flip-flop is a universal flip-flop. It behaves as an SR flip-flop but avoids the invalid state:
+   ●	Answer: The JK flip-flop is a universal flip-flop. It behaves as an SR flip-flop but avoids the invalid state:
     
     ●	J = 0, K = 0 → No change
     
@@ -130,22 +130,23 @@ IC7473 J-K Flip-flop pin diagram and truth table
 
    | ↑                  | 1 | 1    |
 
-7. Why is the JK flip-flop called a universal flip-flop?
+6. Why is the JK flip-flop called a universal flip-flop?
 
-   ●	Answer: Because it can be configured to function as an SR, D, or T flip-flop depending on how inputs J and K are connected.
+    ●	Answer: Because it can be configured to function as an SR, D, or T flip-flop depending on how inputs J and K are connected.
 
-8. What is the race-around condition in JK flip-flops?
+7. What is the race-around condition in JK flip-flops?
 
-  ●	Answer: When J = K = 1 and the clock pulse is HIGH for a long duration, the output toggles continuously, leading to instability.
+   ●	Answer: When J = K = 1 and the clock pulse is HIGH for a long duration, the output toggles continuously, leading to instability.
 
-9. How is the race-around condition avoided?
+8. How is the race-around condition avoided?
 
-   ●	Answer: By using edge-triggered JK flip-flops or master-slave JK flip-flops
+    ●	Answer: By using edge-triggered JK flip-flops or master-slave JK flip-flops
 
-10. Which ICs are commonly used for D and JK flip-flops?
+9. Which ICs are commonly used for D and JK flip-flops?
 
-    ○	D flip-flop: IC 7474 (dual D flip-flop with preset and clear).
-    ○	JK flip-flop: IC 7476 (dual JK flip-flop with preset and clear).
+     ●		D flip-flop: IC 7474 (dual D flip-flop with preset and clear).
+   
+     ●	JK flip-flop: IC 7476 (dual JK flip-flop with preset and clear).
 
 **INFERENCE:**
 
