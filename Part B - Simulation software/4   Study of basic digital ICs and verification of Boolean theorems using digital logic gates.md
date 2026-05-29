@@ -222,18 +222,58 @@ F=A⋅(B+C′) using CircuitVerse and observe the output waveform.
 A+(B+C)=(A+B)+C using logic gates and verify it using simulation.
 
 **VIVA QUESTIONS:**
-1.	What is CircuitVerse, and what are its primary uses?
-2.	Explain the working of the XOR gate using basic gates.
-3.	What are the fundamental theorems of Boolean algebra? Name any two.
-4.	What is the significance of waveform analysis in logic circuit simulation?
-5.	How can De Morgan’s Theorems be verified using logic gates in a circuit simulator?
-6.	What is the difference between combinational and sequential circuits?
-7.	Name any five basic digital ICs and their functions.
-8.	What is the significance of verifying Boolean theorems using logic gates?
-9.	State and verify the Boolean identity A + A = A using logic gates.
-10.	How can you implement an XOR gate using only NAND gates?
+
+
+1.	What are logic gates?
+
+  	Logic gates are digital components that perform basic logical functions like AND, OR, NOT, NAND, NOR, XOR, and XNOR.
+
+2.  What is the difference between analog and digital simulation?
+  
+    Analog simulation deals with continuous signals (voltages, currents), while digital simulation works with discrete logic levels (0s and 1s).
+
+3.	What is a truth table?
+
+    A truth table lists all possible input combinations to a logic circuit and the corresponding output values.
+
+4.	What is the output of an AND gate if both inputs are 1?
+ 
+    The output is 1.
+
+5.	How does a NOT gate behave?
+
+    A NOT gate inverts its input: it gives 1 if input is 0, and 0 if input is 1.
+
+6.	What is a universal gate? Name them.
+
+    Universal gates are gates that can be used to build any logic circuit. NAND and NOR gates are universal gates.
+
+7.	What is the Boolean expression for an OR gate?
+
+    Y = A + B
+
+8.	What is the output of a NAND gate if both inputs are 1?
+
+    The output is 0.
+
+9.	What is the role of an input probe in circuit simulation?
+
+    It is used to provide input signals to the circuit, such as logic high (1) or low (0).
+
+10.	What is the role of an oscilloscope or timing diagram in simulation?
+
+    It shows how the output of the circuit changes over time based on input changes, allowing waveform analysis.
+
+11.	How do you verify a logic circuit using simulation software?
+
+    By checking the output waveform or truth table against the expected logic function.
+
+12.	What does a timing diagram show?
+
+    It shows the state (high or low) of each input and output over time.
 
 **INFERENCE:**
+
 The circuit simulation software (Circuitverse.org) was familiarized. The basic digital logic gates (AND, OR, NOT, NAND, NOR, XNOR, and XOR gates) were simulated using circuit simulation software, their truth table were verified, and their waveforms were analyzed. The Demorgan’s theorem was successfully verified by designing and simulating logic circuits using basic gates in circuit simulation software
 
 
