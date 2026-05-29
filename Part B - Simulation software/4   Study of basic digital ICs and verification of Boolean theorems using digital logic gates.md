@@ -133,7 +133,7 @@ Common Applications in CircuitVerse:
 
 **AND GATE**
 
-![add_gate](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/add%20gate.png)
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%201/add%20gate.png", width = "400">
 
 **OR GATE**
 
@@ -199,6 +199,8 @@ Common Applications in CircuitVerse:
 Realize a given Boolean function using basic gates and verify the waveform with the truth table.
 
 To design and implement the given SOP function F (x2, x1, x0) = Σm(0, 1, 4, 5, 7). Using basic gate
+
+![tt](https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20B%20-%20Simulation%20software/EXP%204/tt.png)
 
 
 **MODEL QUESTIONS:**
