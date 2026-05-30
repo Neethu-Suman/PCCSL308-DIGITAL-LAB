@@ -66,77 +66,109 @@ The K map provides a systematic method for simplifying Boolean expressions and, 
 
 **CIRCUIT DIAGRAM** 
 
-<img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%208/CKT.png" width ="400">
+<img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%208/CKT.png" width ="600">
 
 **VERILOG CODE:**
 
 module sop_pos (  input  wire x2,x1,x0,    output wire F1,F2);
+
     wire x1n;
+	
     assign x1n = ~x1;
+	
     assign F1 = x1n | (x2&x0);   
+	
     assign F2 = (x2 |x1n) & (x1n | x0);
-Endmodule
+	
+endmodule
 
 **b.	Continuous assignment with conditional operators**
 
-module sop_pos (
-    input  wire x2,x1,x0,
-    output wire F1,F2);
+module sop_pos (    input  wire x2,x1,x0,    output wire F1,F2);
+	
 	assign F1 = (~x1) ? 1'b1 : ((x2 & x0) ? 1'b1 : 1'b0);
+	
 	assign F2 = ((x2 | ~x1) & (~x1 | x0)) ? 1'b1 : 1'b0;
+	
 endmodule
 
 **c.	Using gate level primitives**
 
 module sop_pos_gatelevel(input x0, x1, x2, output F1, F2);
+
   wire nx1, and1, or1, or2;
+  
   // For F1 = ~x1 + (x2 & x0)
+  
   not (nx1, x1);         // nx1 = ~x1
+  
   and (and1, x2, x0);    // and1 = x2 & x0
+  
   or  (F1, nx1, and1);   // F1 = nx1 | and1
+  
   // For F2 = (x2 + ~x1)(~x1 + x0)
+  
   or  (or1, x2, nx1);    // or1 = x2 | ~x1
+  
   or  (or2, nx1, x0);    // or2 = ~x1 | x0
+  
   and (F2, or1, or2);    // F2 = or1 & or2
+  
 endmodule
 
 PROCEDURE:
 
 1.	Start the Verilog Simulator / IDE
+
 2.	Write Verilog Code for the given Boolean functions for each given operator format
+
 3.	Save and Compile the Design Files
+
 4.	Simulate the Design
+
 5.	Observe Waveforms / Console Outputs
 
-OUTPUT:
-
-a.	Continuous assignment with logical operators 
-
-b.	Continuous assignment with conditional operators 
-
-c.	Using gate level primitives
-
 MODEL QUESTIONS 
+
 1.	Write the minimized SOP and POS expressions for F(x2,x1,x0)=Σm(0,1,4,5,7).
+
 2.	Implement the given function in Verilog using continuous assignment with logical operators.
+
 3.	Write Verilog code using continuous assignment with conditional operators (?:).
+
 4.	Implement the same Boolean function in Verilog using gate-level modeling.
 
+
 VIVA QUESTIONS 
+
 1.	What is the difference between SOP and POS forms of Boolean functions?
+
 2.	Why is minimization of Boolean functions important before implementation?
+
 3.	What is the difference between dataflow modeling and gate-level modeling in Verilog?
+
 4.	Explain the use of the ?: conditional operator in Verilog.
+
 5.	What is the difference between &, | (logical operators) and &&, || (logical AND/OR)?
+
 6.	What are the advantages of using continuous assignment (assign) in Verilog?
+
 7.	How does Verilog differentiate between bitwise and logical operators?
+
 8.	Explain the use of gate-level primitives (and, or, not) in Verilog.
+
 9.	What is the difference between simulation and synthesis in Verilog?
+
 10.	Why do we usually verify Boolean expressions using truth tables before hardware implementation?
+
 11.	Draw the logic circuit diagram corresponding to the minimized SOP expression.
+
 12.	Draw the logic circuit diagram corresponding to the minimized POS expression.
+
 13.	Compare SOP and POS forms – which uses fewer gates for this function?
+
 INFERENCE:
+
 ●	The given Boolean function (SOP and POS) was successfully modeled in Verilog using continuous assignment with logical operators, continuous assignment with conditional operators, and gate-level primitives.
 ●	The truth tables were verified for each modeling method
 
