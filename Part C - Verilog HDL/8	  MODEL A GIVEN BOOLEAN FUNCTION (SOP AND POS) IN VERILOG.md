@@ -96,27 +96,27 @@ endmodule
 
 module sop_pos_gatelevel(input x0, x1, x2, output F1, F2);
 
-  wire nx1, and1, or1, or2;
+  	wire nx1, and1, or1, or2;
   
-  // For F1 = ~x1 + (x2 & x0)
+  	// For F1 = ~x1 + (x2 & x0)
   
-  not (nx1, x1);         // nx1 = ~x1
+  	not (nx1, x1);         // nx1 = ~x1
   
-  and (and1, x2, x0);    // and1 = x2 & x0
+  	and (and1, x2, x0);    // and1 = x2 & x0
   
-  or  (F1, nx1, and1);   // F1 = nx1 | and1
+  	or  (F1, nx1, and1);   // F1 = nx1 | and1
   
-  // For F2 = (x2 + ~x1)(~x1 + x0)
+  	// For F2 = (x2 + ~x1)(~x1 + x0)
   
-  or  (or1, x2, nx1);    // or1 = x2 | ~x1
+  	or  (or1, x2, nx1);    // or1 = x2 | ~x1
   
-  or  (or2, nx1, x0);    // or2 = ~x1 | x0
+  	or  (or2, nx1, x0);    // or2 = ~x1 | x0
   
-  and (F2, or1, or2);    // F2 = or1 & or2
+  	and (F2, or1, or2);    // F2 = or1 & or2
   
 endmodule
 
-PROCEDURE:
+**PROCEDURE:**
 
 1.	Start the Verilog Simulator / IDE
 
@@ -128,7 +128,7 @@ PROCEDURE:
 
 5.	Observe Waveforms / Console Outputs
 
-MODEL QUESTIONS 
+**MODEL QUESTIONS**
 
 1.	Write the minimized SOP and POS expressions for F(x2,x1,x0)=Σm(0,1,4,5,7).
 
@@ -139,7 +139,7 @@ MODEL QUESTIONS
 4.	Implement the same Boolean function in Verilog using gate-level modeling.
 
 
-VIVA QUESTIONS 
+**VIVA QUESTIONS**
 
 1.	What is the difference between SOP and POS forms of Boolean functions?
 
@@ -167,7 +167,7 @@ VIVA QUESTIONS
 
 13.	Compare SOP and POS forms – which uses fewer gates for this function?
 
-INFERENCE:
+**INFERENCE:**
 
 ●	The given Boolean function (SOP and POS) was successfully modeled in Verilog using continuous assignment with logical operators, continuous assignment with conditional operators, and gate-level primitives.
 ●	The truth tables were verified for each modeling method
