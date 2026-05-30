@@ -59,18 +59,9 @@ The K map provides a systematic method for simplifying Boolean expressions and, 
 
 **CIRCUIT DIAGRAM** 
 
-TRUTH TABLE
-K MAP SIMPLIFICATION
-F (x2, x1, x0) = Σm(0, 1, 4, 5, 7).  
+<img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%208/CKT.png" width ="400">
 
- 	 
- SOP  F1 = x1’ + x2x0                
-  POS F2 = (x2 + x1’) (x1’ + x0)
-
-
-
-VERILOG CODE:
-
+**VERILOG CODE:**
 
 module sop_pos (  input  wire x2,x1,x0,    output wire F1,F2);
     wire x1n;
@@ -79,7 +70,7 @@ module sop_pos (  input  wire x2,x1,x0,    output wire F1,F2);
     assign F2 = (x2 |x1n) & (x1n | x0);
 Endmodule
 
-b.	Continuous assignment with conditional operators 
+**b.	Continuous assignment with conditional operators**
 
 module sop_pos (
     input  wire x2,x1,x0,
@@ -88,7 +79,7 @@ module sop_pos (
 	assign F2 = ((x2 | ~x1) & (~x1 | x0)) ? 1'b1 : 1'b0;
 endmodule
 
-c.	Using gate level primitives
+**c.	Using gate level primitives**
 
 module sop_pos_gatelevel(input x0, x1, x2, output F1, F2);
   wire nx1, and1, or1, or2;
@@ -101,6 +92,7 @@ module sop_pos_gatelevel(input x0, x1, x2, output F1, F2);
   or  (or2, nx1, x0);    // or2 = ~x1 | x0
   and (F2, or1, or2);    // F2 = or1 & or2
 endmodule
+
 PROCEDURE:
 
 1.	Start the Verilog Simulator / IDE
