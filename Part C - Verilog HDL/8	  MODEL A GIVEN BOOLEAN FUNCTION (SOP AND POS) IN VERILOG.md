@@ -64,11 +64,10 @@ All standard Boolean expression can be easily converted into truth table format 
 
 The K map provides a systematic method for simplifying Boolean expressions and, if properly used, will produce the simplest SOP and POS expression possible, known as minimum expression. A Karnaugh map is similar to a truth table because it presents all of the possible values of input variables and the resulting output for each value. 
 
-**CIRCUIT DIAGRAM** 
+**DESIGN** 
 
 <img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%208/CKT.png" width ="600">
 
-<img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%202/ck2.png" width = "600">
 
 **VERILOG CODE:**
 
@@ -172,5 +171,6 @@ endmodule
 **INFERENCE:**
 
 ●	The given Boolean function (SOP and POS) was successfully modeled in Verilog using continuous assignment with logical operators, continuous assignment with conditional operators, and gate-level primitives.
+
 ●	The truth tables were verified for each modeling method
 
