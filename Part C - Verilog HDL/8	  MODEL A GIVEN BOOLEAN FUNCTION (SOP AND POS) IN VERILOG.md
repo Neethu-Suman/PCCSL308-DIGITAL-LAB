@@ -68,6 +68,8 @@ The K map provides a systematic method for simplifying Boolean expressions and, 
 
 <img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%208/CKT.png" width ="600">
 
+<img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20A%20-%20Breadboard/EXP%20NO%202/ck2.png" width = "600">
+
 **VERILOG CODE:**
 
 module sop_pos (  input  wire x2,x1,x0,    output wire F1,F2);
