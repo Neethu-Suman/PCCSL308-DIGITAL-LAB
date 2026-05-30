@@ -149,16 +149,48 @@ Using AOI Logic
 
 **VIVA QUESTIONS:**
 
-1.	What is the key difference between Binary code and Gray code? Why is Gray code used?
-2.	What are the outputs of a Half Adder? Can it handle carry from previous stages? Why/why not?
-3.	How does a Full Adder differ from a Half Adder?
-4.	Explain how a Full Adder can be implemented using two Half Adders.
-5.	What are the outputs of a Half Subtractor? Define the borrow.
-6.	How do you implement a Full Subtractor using basic logic gates?
-7.	What logic gates are used in designing a Binary to Gray code converter?
-8.	Can you use XOR gates to implement a Binary to Gray code converter? Justify.
-9.	Why are combinational circuits different from sequential circuits? Give one key difference.
-10.	What real-world applications use Gray code and full adders/subtractors?
+1.	What is a combinational logic circuit?
+ 
+      A combinational logic circuit is a type of digital circuit where the output depends only on the present inputs and not on any past values (no memory element).
+
+2.	What are the basic building blocks of combinational circuits?
+
+      Logic gates like AND, OR, NOT, NAND, NOR, XOR, and XNOR.
+
+3.	Name some examples of combinational logic circuits.
+
+      Adders, subtractors, multiplexers, demultiplexers, encoders, decoders, and code converters.
+
+4.	What is a code converter?
+
+      A code converter is a combinational circuit that converts data from one binary code to another, such as from binary to Gray code or BCD to Excess-3.
+
+5.	Give an example of a 4-bit binary to Gray code conversion.
+
+      Gray code = Binary code XOR (binary code right-shifted by 1 bit).
+
+6.	Why is Gray code useful in digital systems?
+
+      Gray code is useful because only one bit changes at a time, reducing the chance of errors during transitions.
+
+7.	What is a half adder?
+
+      A half adder is a combinational circuit that adds two single-bit binary numbers and produces a sum and a carry output.
+
+8.	What are the expressions for sum and carry in a half adder?
+
+      Sum = A ⊕ B
+
+      Carry = A · B
+
+9.	What are the limitations of a half adder?
+
+      It cannot handle carry input from previous additions — it only adds two bits.
+
+10.	What is a full adder?
+
+      A full adder is a combinational circuit that adds three binary inputs (A, B, and Carry-in) and gives a sum and carry-out as output.
+
 
 **INFERENCE:**
 
