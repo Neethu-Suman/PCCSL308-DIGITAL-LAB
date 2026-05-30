@@ -35,19 +35,26 @@ Logic gates are connected to produce a specified output for certain specified co
 **The Sum of Products Form (SOP)**
 
 Each product term consists of the product of literals (variables or their complements). When two or more product terms are summed by Boolean addition, the resulting expression is SOP 
+
 Eg: AB+CD+ABC 
 
 **The Standard SOP Form :** 
 
-A standard SOP expression is one in which all the variables in the domain appear in each product term (either in complemented or non-complemented form) in the expression Eg: 𝐴𝐵𝐶 + 𝐴′𝐵𝐶 + 𝐴𝐵𝐶′ 
+A standard SOP expression is one in which all the variables in the domain appear in each product term (either in complemented or non-complemented form) in the expression 
+
+Eg: 𝐴𝐵𝐶 + 𝐴′𝐵𝐶 + 𝐴𝐵𝐶′ 
 
 **The Product of Sums (POS) form :** 
 
-A sum term consists of the Boolean addition of  literals (variable or their complements). When two or more sum terms are multiplied, the resulting expression is a POS. Eg: (A+B) (B+C+D)
+A sum term consists of the Boolean addition of  literals (variable or their complements). When two or more sum terms are multiplied, the resulting expression is a POS. 
+
+Eg: (A+B) (B+C+D)
 
 **The Standard POS forms :** 
 
-A standard POS expression is one in which all the variables in the domain appear in each sum term in the expression  Eg: (A+B+C) (A’+B’+C) 
+A standard POS expression is one in which all the variables in the domain appear in each sum term in the expression  
+
+Eg: (A+B+C) (A’+B’+C) 
 
 **Boolean expressions and Truth tables** 
 
