@@ -106,3 +106,5 @@ Applications
 
 **7 SEGMENT DISPLAY DECODER**
 <img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%209/ckt5.png">
+
+<img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%209/ckt7.png">
