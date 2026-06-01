@@ -97,3 +97,7 @@ Applications
 **1:4 DEMUX**
 
 <img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%209/ckt2.png">
+
+**4:2 ENCODER**
+<img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%209/ck3.png">
+
