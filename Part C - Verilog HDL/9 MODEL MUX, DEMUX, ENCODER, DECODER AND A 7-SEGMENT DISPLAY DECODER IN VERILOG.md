@@ -16,9 +16,9 @@ After completing this experiment, the student will be able to:
 
 ●	Model a 4:1 MUX, 1:4 DEMUX, 4 to 2 encoder, and 2 to 4 decoder, and a 7-Segment Display Decoder in Verilog using 
 
-   a.	continuous assignment with logical operators 
+       a.	continuous assignment with logical operators 
  
-   b.	continuous assignment with conditional operators
+       b.	continuous assignment with conditional operators
 
 **SOFTWARE REQUIRED:** 
 
@@ -92,4 +92,4 @@ Applications
 
 **4:1 MUX**
  
-<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%209/ck1.png" width ="400">
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%209/ck1.png">
