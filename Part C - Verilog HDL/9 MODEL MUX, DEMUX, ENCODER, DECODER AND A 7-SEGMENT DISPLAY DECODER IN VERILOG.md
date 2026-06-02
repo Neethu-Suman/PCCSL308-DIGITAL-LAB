@@ -110,3 +110,69 @@ Applications
 <img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%209/ckt7.png">
 
 <img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%209/ckt8.png">
+
+**PROCEDURE:**
+
+1.	Start the Verilog Simulator / IDE
+
+2.	Write Verilog Code for the given for each given operator format
+
+3.	Save and Compile the Design Files
+
+4.	Simulate the Design
+
+5.	Observe Waveforms / Console Outputs
+
+**MODEL / VIVA QUESTIONS:**
+
+
+1.	What is the difference between combinational and sequential circuits?
+
+    Combinational circuits depend only on present inputs, while sequential circuits depend on present inputs and past history (memory).
+
+2.	What is continuous assignment in Verilog?
+
+    Continuous assignment (assign) is used to model combinational circuits at the dataflow level.
+
+3.	Difference between logical operators and conditional operators in Verilog?
+
+    Logical operators (&, |, ~) directly implement Boolean expressions, while conditional (?:) is used for decision-making and multiplexing.
+
+4.	Why is assign used in Verilog?
+
+    To drive values to nets (like wire) and describe combinational logic continuously. 
+
+5.	What is a multiplexer?
+
+    A MUX selects one input from many and forwards it to the output based on select lines.
+
+6.	How many select lines are required for a 4:1 MUX?
+
+    2 select lines (since 2^2 = 4).
+
+7.	Write the Boolean expression for a 4:1 MUX.
+
+  	Y = S1’·S0’·I0 + S1’·S0·I1 + S1·S0’·I2 + S1·S0·I3
+
+8.	What is the difference between a decoder and a demultiplexer?
+
+    DEMUX routes a single input to multiple outputs, while a decoder generates outputs for input combinations.
+
+9.	How many select lines are required for a 1:4 DEMUX?
+
+    2 select lines (since 2^2 = 4 outputs).
+
+10.	Give the expression for Y2 in a 1:4 DEMUX.
+
+    Y2 = D·S1·S0’
+
+INFERENCE:
+
+    ●	The 4:1 MUX, 1:4 DEMUX, 4 to 2 encoder, 2 to 4 decoder, and a 7-Segment Display Decoder were successfully modeled in Verilog HDL using continuous assignment with logical operators and 
+        continuous assignment with conditional operators.
+    
+    ●	From the simulation waveforms, the truth tables for each modeling method were verified.
+
+    ●	This experiment demonstrates the modeling of various combinational circuits in Verilog.
+
+
