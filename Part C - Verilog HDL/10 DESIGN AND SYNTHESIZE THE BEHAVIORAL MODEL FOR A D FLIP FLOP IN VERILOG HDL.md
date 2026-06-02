@@ -128,7 +128,7 @@ endmodule
 
 6.	Difference between synchronous and asynchronous reset?
 
-   Synchronous reset acts only on clock edge; asynchronous reset overrides clock.
+    Synchronous reset acts only on clock edge; asynchronous reset overrides clock.
 
 **INFERENCE:**
 
