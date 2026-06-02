@@ -88,16 +88,23 @@ else
 
 endmodule	
 
-PROCEDURE:
+**PROCEDURE:**
+
 1.	Write the Verilog code in the HDL tool.
+
 2.	Compile and check for syntax errors.
+
 3.	Run the simulation using testbench.
+
 4.	Observe waveforms and verify that Q follows D on the rising edge of the clock.
+
 5.	Perform synthesis and check resource utilization.
 
-Model Viva Questions:
+**Model Viva Questions:**
+
 1.	What is the difference between latch and flip-flop?
- → Latch is level-triggered, flip-flop is edge-triggered.
+
+   Latch is level-triggered, flip-flop is edge-triggered.
 
 2.	Why is it called a D flip-flop?
  → Because it transfers the value of the Data input (D) to output Q on clock edge.
