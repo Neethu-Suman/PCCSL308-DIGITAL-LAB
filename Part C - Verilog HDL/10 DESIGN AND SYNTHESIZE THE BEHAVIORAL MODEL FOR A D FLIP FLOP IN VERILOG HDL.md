@@ -22,32 +22,49 @@ After performing this experiment, the student will be able to:
 
 4.	Verify the functionality of a flip-flop using simulation tools.
 
-THEORY:
+**THEORY:**
+
 A flip-flop is a fundamental building block of sequential logic circuits. Unlike combinational circuits, sequential circuits depend not only on the present inputs but also on the previous state. Flip-flops are edge-triggered devices that store one bit of data and are widely used in registers, counters, and memory elements.
- D Flip-Flop (Data/Delay Flip-Flop)
+
+D Flip-Flop (Data/Delay Flip-Flop)
+
 ●	The D flip-flop eliminates the ambiguity of the SR flip-flop (where S = R = 1 is invalid).
 
 ●	It has only one input, D (Data), apart from the clock (CLK) and optional reset/set signals.
+
 ●	On the triggering edge of the clock (usually rising edge), the output Q takes the value of D.
+
 ●	Thus, the next state of the flip-flop is always equal to the value of D.
+
 Applications of D Flip-Flop
+
 ●	Data storage element in registers and memory.
+
 ●	Used in shift registers and counters.
+
 ●	Synchronization of asynchronous signals.
+
 ●	Fundamental component in digital system design and FPGA-based systems.
 
-DESIGN
+**DESIGN**
  
-VERILOG CODE:
+**VERILOG CODE:**
 
 module dfp(output reg Q,Qn,input wire Clock,Reset,Preset,D,EN);
-always @(posedge Clock or negedge Reset or negedge Preset)
-if(!Reset)
-   begin
-      Q <= 1'b0;
-      Qn <= 1'b1;
-   end
-else if(!Preset)
+
+  always @(posedge Clock or negedge Reset or negedge Preset)
+
+  if(!Reset)
+    
+    begin
+       
+       Q <= 1'b0;
+      
+       Qn <= 1'b1;
+    
+    end
+
+ else if(!Preset)
    begin
       Q <= 1'b1;
       Qn <= 1'b0;
