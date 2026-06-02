@@ -1,15 +1,25 @@
-EXPERIMENT 10
-DESIGN AND SYNTHESIZE THE BEHAVIORAL MODEL FOR A D FLIP FLOP IN VERILOG HDL
-OBJECTIVE:
+**EXPERIMENT 10**
+
+**DESIGN AND SYNTHESIZE THE BEHAVIORAL MODEL FOR A D FLIP FLOP IN VERILOG HDL**
+
+**OBJECTIVE:**
+
 ●	To design and synthesize a behavioral model of a D flip-flop using Verilog HDL.
+
 ●	To understand the working of synchronous sequential circuits.
+
 ●	To simulate and verify the truth table and timing diagram of a D flip-flop.
 
-LEARNING OUTCOMES :
+**LEARNING OUTCOMES :**
+
 After performing this experiment, the student will be able to:
+
 1.	Understand the working principle of a D flip-flop.
+
 2.	Model sequential circuits in Verilog using behavioral constructs (always block).
+
 3.	Differentiate between blocking (=) and non-blocking (<=) assignments.
+
 4.	Verify the functionality of a flip-flop using simulation tools.
 
 THEORY:
