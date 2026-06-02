@@ -104,25 +104,32 @@ endmodule
 
 1.	What is the difference between latch and flip-flop?
 
-   Latch is level-triggered, flip-flop is edge-triggered.
+    Latch is level-triggered, flip-flop is edge-triggered.
 
 2.	Why is it called a D flip-flop?
- → Because it transfers the value of the Data input (D) to output Q on clock edge.
+
+    Because it transfers the value of the Data input (D) to output Q on clock edge.
 
 3.	What is the excitation table of a D flip-flop?
- → Q(next) = D, irrespective of present state.
+
+    Q(next) = D, irrespective of present state.
 
 4.	Why are non-blocking assignments (<=) used in sequential circuits?
- → To avoid race conditions and ensure correct synchronous updates.
+
+    To avoid race conditions and ensure correct synchronous updates.
 
 5.	What is setup time and hold time in flip-flops?
- → Setup time: Minimum time input D must be stable before clock edge.
- → Hold time: Minimum time input D must remain stable after clock edge.
+
+    Setup time: Minimum time input D must be stable before clock edge.
+  	
+    Hold time: Minimum time input D must remain stable after clock edge.
 
 6.	Difference between synchronous and asynchronous reset?
- → Synchronous reset acts only on clock edge; asynchronous reset overrides clock.
 
-INFERENCE:
+   Synchronous reset acts only on clock edge; asynchronous reset overrides clock.
+
+**INFERENCE:**
+
 ●	The behavioral model of a D flip-flop was successfully designed, simulated, and synthesized using Verilog HDL.
 
 ●	From the simulation waveforms, it is verified that the output Q follows input D only at the rising edge of the clock.
