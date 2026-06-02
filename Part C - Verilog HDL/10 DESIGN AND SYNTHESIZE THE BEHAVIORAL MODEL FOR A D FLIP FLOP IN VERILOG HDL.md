@@ -47,6 +47,8 @@ Applications of D Flip-Flop
 ●	Fundamental component in digital system design and FPGA-based systems.
 
 **DESIGN**
+
+<img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/exp%2010.png" width ="400">
  
 **VERILOG CODE:**
 
