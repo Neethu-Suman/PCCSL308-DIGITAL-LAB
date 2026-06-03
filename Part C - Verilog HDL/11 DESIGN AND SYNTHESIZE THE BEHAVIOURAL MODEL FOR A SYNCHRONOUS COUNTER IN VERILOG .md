@@ -26,7 +26,9 @@ Counters are used for counting purposes in digital systems such as timers, frequ
 A synchronous counter can be up, down, or up/down type depending on the counting sequence. In a behavioural model, the counter is described using high-level constructs such as always blocks and conditional statements instead of gate-level connections.
 
 **DESIGN**
- 
+
+<img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/exp%2011.png">
+
 **VERILOG CODE:**
 
 **2bit up counter**
