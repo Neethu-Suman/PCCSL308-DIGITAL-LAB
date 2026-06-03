@@ -179,41 +179,51 @@ endmodule
 
 8.	Synthesize the design and verify the resource utilization report.
 
-Model Viva Questions:
-1.	Q: What is a synchronous counter?
- A: A synchronous counter is a counter in which all flip-flops are triggered simultaneously by the same clock signal.
+**Model Viva Questions:**
 
-2.	Q: How is a synchronous counter different from an asynchronous counter?
- A: In a synchronous counter, all flip-flops receive the clock at the same time, while in an asynchronous counter, the clock is passed from one flip-flop to the next, causing propagation delay.
+1.	What is a synchronous counter?
 
-3.	Q: What is behavioural modelling in Verilog?
- A: Behavioural modelling describes the circuit’s functionality using high-level constructs like always blocks, if-else, and case statements rather than gate-level connections.
+	A synchronous counter is a counter in which all flip-flops are triggered simultaneously by the same clock signal.
 
-4.	Q: Which Verilog construct is used for sequential logic?
- A: The always block triggered by posedge or negedge of the clock signal is used to describe sequential logic.
+2.	How is a synchronous counter different from an asynchronous counter?
 
-5.	Q: What is the purpose of the reset signal in a counter?
- A: The reset signal initializes the counter to a known state, usually zero, regardless of the clock input.
+	In a synchronous counter, all flip-flops receive the clock at the same time, while in an asynchronous counter, the clock is passed from one flip-flop to the next, causing propagation delay.
 
-6.	Q: What happens when a 4-bit counter reaches its maximum count (1111)?
- A: After reaching 1111 (15 in decimal), the counter rolls over to 0000 and starts counting again.
+3.	What is behavioural modelling in Verilog?
 
-7.	Q: How can you convert an up-counter into a down-counter?
- A: Replace the increment operation (count <= count + 1;) with a decrement operation (count <= count - 1;) in the Verilog code.
+	Behavioural modelling describes the circuit’s functionality using high-level constructs like always blocks, if-else, and case statements rather than gate-level connections.
 
-8.	Q: What is the difference between blocking and non-blocking assignments?
- A:
+4.	Which Verilog construct is used for sequential logic?
 
-○	Blocking (=): Executes statements sequentially.
+	The always block triggered by posedge or negedge of the clock signal is used to describe sequential logic.
 
-○	Non-blocking (<=): Executes all assignments simultaneously, suitable for sequential logic.
+5.	What is the purpose of the reset signal in a counter?
 
-9.	Q: Why do we use posedge clk in the always block?
- A: It ensures that the counter updates only on the positive edge of the clock, mimicking the triggering behavior of flip-flops.
+	The reset signal initializes the counter to a known state, usually zero, regardless of the clock input.
 
-10.	Q: Give some applications of counters.
- A: Counters are used in timers, digital clocks, frequency dividers, event counters, and control systems.
+6.	What happens when a 4-bit counter reaches its maximum count (1111)?
+
+	After reaching 1111 (15 in decimal), the counter rolls over to 0000 and starts counting again.
+
+7.	How can you convert an up-counter into a down-counter?
+
+	Replace the increment operation (count <= count + 1;) with a decrement operation (count <= count - 1;) in the Verilog code.
+
+8.	What is the difference between blocking and non-blocking assignments?
+
+	Blocking (=): Executes statements sequentially.
+
+	Non-blocking (<=): Executes all assignments simultaneously, suitable for sequential logic.
+
+9.	Why do we use posedge clk in the always block?
+
+	It ensures that the counter updates only on the positive edge of the clock, mimicking the triggering behavior of flip-flops.
+
+10.	Give some applications of counters.
+
+	Counters are used in timers, digital clocks, frequency dividers, event counters, and control systems.
 
 
-INFERENCE:
+**INFERENCE:**
+
 The behavioural model of a synchronous counter was successfully designed, simulated, and synthesized using Verilog HDL. The output waveform verified that the counter increments synchronously with the clock signal, demonstrating correct functionality and timing behavior.
