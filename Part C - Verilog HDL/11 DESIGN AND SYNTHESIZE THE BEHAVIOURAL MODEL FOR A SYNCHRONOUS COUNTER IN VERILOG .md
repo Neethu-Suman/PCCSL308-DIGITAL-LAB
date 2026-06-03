@@ -1,10 +1,14 @@
-EXPERIMENT 11
-DESIGN AND SYNTHESIZE THE BEHAVIOURAL MODEL FOR A SYNCHRONOUS COUNTER IN VERILOG 
+**EXPERIMENT 11**
+**DESIGN AND SYNTHESIZE THE BEHAVIOURAL MODEL FOR A SYNCHRONOUS COUNTER IN VERILOG**
 
-OBJECTIVE:
+**OBJECTIVE:**
+
 To design and synthesize a behavioural model of a synchronous counter using Verilog HDL and verify its functionality through simulation.
-LEARNING OUTCOMES:
+
+**LEARNING OUTCOMES:**
+
 After completing this experiment, students will be able to:
+
 1.	Understand the concept of synchronous counters and their working principle.
 
 2.	Develop Verilog code using behavioural modelling techniques.
@@ -13,89 +17,150 @@ After completing this experiment, students will be able to:
 
 4.	Synthesize the design and observe the hardware resource utilization.
 
-THEORY:
+**THEORY:**
+
 A synchronous counter is a type of counter in which all flip-flops are triggered simultaneously by the same clock signal. This eliminates propagation delay problems associated with asynchronous (ripple) counters, leading to faster operation.
+
 Counters are used for counting purposes in digital systems such as timers, frequency dividers, and digital clocks.
+
 A synchronous counter can be up, down, or up/down type depending on the counting sequence. In a behavioural model, the counter is described using high-level constructs such as always blocks and conditional statements instead of gate-level connections.
 
-
-
-
-DESIGN
+**DESIGN**
  
-VERILOG CODE:
-2bit up counter
-module counter_2bit_up(output reg[1:0] 
-CNT, input wire Clock, Reset);
+**VERILOG CODE:**
+
+**2bit up counter**
+
+module counter_2bit_up(output reg[1:0] CNT, input wire Clock, Reset);
+
 reg[1:0] current_state, next_state;
+
 parameter C0 = 2'b00, C1 = 2'b01, 
+
 C2 = 2'b10, C3 = 2'b11;
+
 always @(posedge Clock or negedge Reset)
-    begin: STATE_MEMORY
+
+	begin: STATE_MEMORY
+	
 	if(!Reset)
-	    current_state <= C0;
-        else
-	    current_state <= next_state;
-    end
+	
+		current_state <= C0;
+        
+		else
+	    
+		current_state <= next_state;
+    
+	end
+
 always @(current_state)
+
 begin: NEXT_STATE_LOGIC
-    case (current_state)
-    C0:  next_state = C1;
-    C1:  next_state = C2; 
-    C2:  next_state = C3; 
-    C3:  next_state = C0; 
-    default : next_state = C0;
-    endcase
+
+	case (current_state)
+    
+	C0:  next_state = C1;
+    
+	C1:  next_state = C2; 
+    
+	C2:  next_state = C3; 
+    
+	C3:  next_state = C0; 
+    
+	default : next_state = C0;
+    
+	endcase
 end
+
 always @(current_state)
+
  begin: OUTPUT_LOGIC
+ 
    case (current_state)
-       C0 :CNT = 2'b00;
-       C1 :CNT = 2'b01;
-       C2 :CNT = 2'b10;
-       C3 :CNT = 2'b11;
-       default :CNT =2'b00;
+   
+	   C0 :CNT = 2'b00;
+       
+	   C1 :CNT = 2'b01;
+       
+	   C2 :CNT = 2'b10;
+       
+	   C3 :CNT = 2'b11;
+       
+	   default :CNT =2'b00;
+   
    endcase
+ 
  end
+
 endmodule
 
       
-2bit down counter
+**2bit down counter**
+
 module counter_2bit_down(output reg[1:0] CNT, input wire Clock, Reset);
+
 reg[1:0] current_state, next_state;
+
 parameter C0 = 2'b00, C1 = 2'b01, C2 = 2'b10, C3 = 2'b11;
+
 always @(posedge Clock or negedge Reset)
-    begin: STATE_MEMORY
+
+	begin: STATE_MEMORY
+	
 	if(!Reset)
-	    current_state <= C0;
-        else
-	    current_state <= next_state;
-    end
+	
+		current_state <= C0;
+        
+		else
+	    
+		current_state <= next_state;
+    
+	end
+
 always @(current_state)
+
 begin: NEXT_STATE_LOGIC
-    case (current_state)
-    C0: next_state =C3;
-    C1: next_state =C0;
-    C2: next_state =C1;
-    C3: next_state =C2;
-    default : next_state = C0;
-    endcase
+
+	case (current_state)
+    
+	C0: next_state =C3;
+    
+	C1: next_state =C0;
+    
+	C2: next_state =C1;
+    
+	C3: next_state =C2;
+    
+	default : next_state = C0;
+    
+	endcase
+
 end
 
 always @(current_state)
+
  begin: OUTPUT_LOGIC
+ 
    case (current_state)
-       C0 :CNT = 2'b00;
-       C1 :CNT = 2'b01;
-       C2 :CNT = 2'b10;
-       C3 :CNT = 2'b11;
-       default :CNT =2'b00;
+   
+	   C0 :CNT = 2'b00;
+       
+	   C1 :CNT = 2'b01;
+       
+	   C2 :CNT = 2'b10;
+       
+	   C3 :CNT = 2'b11;
+       
+	   default :CNT =2'b00;
+   
    endcase
+ 
  end
+
 endmodule
     
  
-PROCEDURE:
+**PROCEDURE:**
 1.	Open the Verilog design tool (such as Xilinx Vivado / ModelSim / Quartus II).
 
 2.	Create a new project and add a new Verilog module named sync_counter.
