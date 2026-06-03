@@ -41,56 +41,57 @@ C2 = 2'b10, C3 = 2'b11;
 
 always @(posedge Clock or negedge Reset)
 
-	begin: STATE_MEMORY
+begin: STATE_MEMORY
 	
-	if(!Reset)
+if(!Reset)
 	
-		current_state <= C0;
+current_state <= C0;
         
-		else
+else
 	    
-		current_state <= next_state;
+current_state <= next_state;
     
-	end
+end
 
 always @(current_state)
 
 begin: NEXT_STATE_LOGIC
 
-	case (current_state)
+case (current_state)
     
-	C0:  next_state = C1;
+C0:  next_state = C1;
     
-	C1:  next_state = C2; 
+C1:  next_state = C2; 
     
-	C2:  next_state = C3; 
+C2:  next_state = C3; 
     
-	C3:  next_state = C0; 
+C3:  next_state = C0; 
     
-	default : next_state = C0;
+default : next_state = C0;
     
-	endcase
+endcase
+
 end
 
 always @(current_state)
 
- begin: OUTPUT_LOGIC
+begin: OUTPUT_LOGIC
  
-   case (current_state)
+case (current_state)
    
-	   C0 :CNT = 2'b00;
+C0 :CNT = 2'b00;
        
-	   C1 :CNT = 2'b01;
+C1 :CNT = 2'b01;
        
-	   C2 :CNT = 2'b10;
+C2 :CNT = 2'b10;
        
-	   C3 :CNT = 2'b11;
-       
-	   default :CNT =2'b00;
+C3 :CNT = 2'b11;
+      
+default :CNT =2'b00;
    
-   endcase
+endcase
  
- end
+end
 
 endmodule
 
@@ -105,62 +106,63 @@ parameter C0 = 2'b00, C1 = 2'b01, C2 = 2'b10, C3 = 2'b11;
 
 always @(posedge Clock or negedge Reset)
 
-	begin: STATE_MEMORY
+begin: STATE_MEMORY
 	
-	if(!Reset)
+if(!Reset)
 	
-		current_state <= C0;
+current_state <= C0;
         
-		else
+else
 	    
-		current_state <= next_state;
+current_state <= next_state;
     
-	end
+end
 
 always @(current_state)
 
 begin: NEXT_STATE_LOGIC
 
-	case (current_state)
+case (current_state)
     
-	C0: next_state =C3;
+C0: next_state =C3;
     
-	C1: next_state =C0;
+C1: next_state =C0;
     
-	C2: next_state =C1;
+C2: next_state =C1;
     
-	C3: next_state =C2;
+C3: next_state =C2;
     
-	default : next_state = C0;
+default : next_state = C0;
     
-	endcase
+endcase
 
 end
 
 always @(current_state)
 
- begin: OUTPUT_LOGIC
+begin: OUTPUT_LOGIC
  
-   case (current_state)
+case (current_state)
    
-	   C0 :CNT = 2'b00;
+C0 :CNT = 2'b00;
        
-	   C1 :CNT = 2'b01;
+C1 :CNT = 2'b01;
        
-	   C2 :CNT = 2'b10;
+C2 :CNT = 2'b10;
        
-	   C3 :CNT = 2'b11;
+C3 :CNT = 2'b11;
        
-	   default :CNT =2'b00;
+default :CNT =2'b00;
    
-   endcase
+endcase
  
- end
+end
 
 endmodule
     
  
 **PROCEDURE:**
+
 1.	Open the Verilog design tool (such as Xilinx Vivado / ModelSim / Quartus II).
 
 2.	Create a new project and add a new Verilog module named sync_counter.
@@ -176,6 +178,7 @@ endmodule
 7.	Verify that the counter increments correctly on every positive edge of the clock.
 
 8.	Synthesize the design and verify the resource utilization report.
+
 Model Viva Questions:
 1.	Q: What is a synchronous counter?
  A: A synchronous counter is a counter in which all flip-flops are triggered simultaneously by the same clock signal.
