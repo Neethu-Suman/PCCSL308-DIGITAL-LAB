@@ -161,6 +161,10 @@ endcase
 end
 
 endmodule
+
+**2 bit up/down counter**
+
+<img src ="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%2011/code.png">
     
  
 **PROCEDURE:**
