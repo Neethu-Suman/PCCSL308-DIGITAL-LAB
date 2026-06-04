@@ -27,7 +27,7 @@ A synchronous counter can be up, down, or up/down type depending on the counting
 
 **DESIGN**
 
-<img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/exp%2011.png">
+<img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%2011/exp%2011.png">
 
 **VERILOG CODE:**
 
