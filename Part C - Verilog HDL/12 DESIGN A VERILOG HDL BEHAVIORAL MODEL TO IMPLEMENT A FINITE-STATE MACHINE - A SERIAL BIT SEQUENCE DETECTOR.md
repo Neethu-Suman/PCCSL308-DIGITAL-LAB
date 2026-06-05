@@ -42,9 +42,9 @@ In Verilog, FSMs are typically implemented using three processes:
 
 **DESIGN**
 
-<img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%2012/d1.png">
+<img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%2012/d1.png" width ="600">
  
-<img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%2012/d2.png">
+<img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%2012/d2.png" width ="600">
 VERILOG CODE:
       
 
