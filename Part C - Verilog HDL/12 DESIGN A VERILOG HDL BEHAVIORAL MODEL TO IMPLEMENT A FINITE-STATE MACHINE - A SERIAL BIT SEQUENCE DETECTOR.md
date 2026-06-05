@@ -44,7 +44,7 @@ In Verilog, FSMs are typically implemented using three processes:
 
 <img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%2012/d1.png">
  
-
+<img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%2012/d2.png">
 VERILOG CODE:
       
 
