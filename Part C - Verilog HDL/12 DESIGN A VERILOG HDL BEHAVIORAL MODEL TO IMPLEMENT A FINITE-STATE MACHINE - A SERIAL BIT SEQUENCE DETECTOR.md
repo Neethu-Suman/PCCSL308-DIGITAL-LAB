@@ -1,12 +1,15 @@
-EXPERIMENT 12
-DESIGN A VERILOG HDL BEHAVIORAL MODEL TO IMPLEMENT A FINITE-STATE MACHINE - A SERIAL BIT SEQUENCE DETECTOR
- 
+**EXPERIMENT 12**
 
-OBJECTIVE:
+**DESIGN A VERILOG HDL BEHAVIORAL MODEL TO IMPLEMENT A FINITE-STATE MACHINE - A SERIAL BIT SEQUENCE DETECTOR**
+ 
+**OBJECTIVE:**
+
 To design and implement a Finite-State Machine (FSM) in Verilog HDL that detects a specific serial bit sequence, using behavioral modeling, and to verify its functionality through simulation.
 
-LEARNING OUTCOMES:
+**LEARNING OUTCOMES:**
+
 After completing this experiment, students will be able to:
+
 1.	Understand the concept of Finite-State Machines (FSMs) and their classification.
 
 2.	Design a sequence detector using the Mealy or Moore FSM model.
@@ -17,20 +20,27 @@ After completing this experiment, students will be able to:
 
 5.	Understand state transitions and waveform verification in simulation.
 
-THEORY:
+**THEORY:**
+
 A Finite-State Machine (FSM) is a sequential logic circuit that moves between a finite number of states based on input signals and a clock. It is widely used in control systems, digital communication, and sequence recognition applications.
+
 FSMs are classified into two types:
-1.	Moore Machine – Output depends only on the current state.
+
+**1.Moore Machine** – Output depends only on the current state.
+**2.	Mealy Machine** – Output depends on the current state and the current input.
+
+A serial bit sequence detector identifies a specific sequence of bits (for example, “1011”) from a serial input stream. Each input bit is processed on every clock pulse, and the FSM transitions through 
 states representing how much of the target sequence has been matched so far.
+
 In Verilog, FSMs are typically implemented using three processes:
-1.	State Register: Stores the current state.
 
-2.	Next-State Logic: Determines the next state based on the current state and input.
+**1.	State Register:** Stores the current state.
 
-3.	Output Logic: Determines the output based on the current state (and input for Mealy type).
+**2.	Next-State Logic:** Determines the next state based on the current state and input.
 
+**3.	Output Logic:** Determines the output based on the current state (and input for Mealy type).
 
-DESIGN
+**DESIGN**
  
 
 VERILOG CODE:
