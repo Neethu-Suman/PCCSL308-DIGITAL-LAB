@@ -121,8 +121,3 @@ In Verilog, FSMs are typically implemented using three processes:
 **INFERENCE:**
 
 The Finite-State Machine (FSM) for detecting a specific serial bit sequence was successfully designed, simulated, and synthesized using Verilog HDL. The output waveform confirmed that the FSM correctly identified the given sequence and demonstrated proper state transitions
-
-
-2.	Mealy Machine – Output depends on the current state and the current input.
-
-A serial bit sequence detector identifies a specific sequence of bits (for example, “1011”) from a serial input stream. Each input bit is processed on every clock pulse, and the FSM transitions through 
