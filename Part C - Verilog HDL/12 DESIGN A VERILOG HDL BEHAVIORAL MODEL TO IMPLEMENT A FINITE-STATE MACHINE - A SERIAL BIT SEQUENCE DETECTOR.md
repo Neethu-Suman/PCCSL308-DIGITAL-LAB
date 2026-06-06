@@ -86,7 +86,7 @@ In Verilog, FSMs are typically implemented using three processes:
 
 3.	What is a sequence detector?
 
-   A sequence detector is a circuit that identifies a specific sequence of bits (e.g., “1011”) from a serial input stream.
+     A sequence detector is a circuit that identifies a specific sequence of bits (e.g., “1011”) from a serial input stream.
 
 4.	What is the difference between Moore and Mealy sequence detectors?
 
@@ -108,11 +108,11 @@ In Verilog, FSMs are typically implemented using three processes:
 
 8.	How can overlapping sequences be detected in FSM?
  
-   Overlapping sequences are detected by designing the FSM to reuse previous matched bits as part of the next sequence.
+    Overlapping sequences are detected by designing the FSM to reuse previous matched bits as part of the next sequence.
 
 9.	What is the advantage of using behavioral modeling for FSMs?
 
-   Behavioral modeling simplifies design by allowing the use of high-level constructs like if-else and case statements, making code more readable and maintainable.
+    Behavioral modeling simplifies design by allowing the use of high-level constructs like if-else and case statements, making code more readable and maintainable.
 
 10.	Give some practical applications of FSMs.
 
