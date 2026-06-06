@@ -43,13 +43,13 @@ In Verilog, FSMs are typically implemented using three processes:
 **DESIGN**
 
 <img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%2012/d1.png" width ="600">
- 
+
+**VERILOG CODE:**
+
 <img src="https://github.com/Neethu-Suman/PCCSL308-DIGITAL-LAB/blob/main/Part%20C%20-%20Verilog%20HDL/EXP%2012/d2.png" width ="600">
-VERILOG CODE:
-      
 
+**PROCEDURE:**
 
-PROCEDURE:
 1.	Open the Verilog design software (e.g., Xilinx Vivado / ModelSim / Quartus II).
 
 2.	Create a new project and add a Verilog module named sequence_detector.
@@ -70,47 +70,56 @@ PROCEDURE:
 
 10.	Synthesize the design and verify hardware resource utilization.
 
-MODEL VIVA QUESTIONS WITH ANSWERS:
-1.	Q: What is a Finite-State Machine (FSM)?
- A: An FSM is a sequential circuit that transitions between a finite number of states based on inputs and produces outputs depending on its current state.
+**MODEL VIVA QUESTIONS**
 
-2.	Q: What are the two main types of FSMs?
- A: The two types are Moore Machine and Mealy Machine.
+1.	What is a Finite-State Machine (FSM)?
 
-○	Moore: Output depends only on the current state.
+    An FSM is a sequential circuit that transitions between a finite number of states based on inputs and produces outputs depending on its current state.
 
-○	Mealy: Output depends on the current state and input.
+2.	What are the two main types of FSMs?
 
-3.	Q: What is a sequence detector?
- A: A sequence detector is a circuit that identifies a specific sequence of bits (e.g., “1011”) from a serial input stream.
+    The two types are Moore Machine and Mealy Machine.
 
-4.	Q: What is the difference between Moore and Mealy sequence detectors?
+    ○	Moore: Output depends only on the current state.
 
- A:
+    ○	Mealy: Output depends on the current state and input.
 
-○	In a Moore detector, the output is associated with states, so the output changes only on state transitions.
+3.	What is a sequence detector?
 
-○	In a Mealy detector, the output can change immediately with the input, resulting in faster detection.
+   A sequence detector is a circuit that identifies a specific sequence of bits (e.g., “1011”) from a serial input stream.
 
-5.	Q: Why do we use state diagrams in FSM design?
- A: State diagrams visually represent all possible states, transitions, and outputs, helping in systematic FSM design.
+4.	What is the difference between Moore and Mealy sequence detectors?
 
-6.	Q: What is the role of the clock in FSM?
- A: The clock synchronizes state transitions, ensuring all changes occur at defined intervals.
+    ○	In a Moore detector, the output is associated with states, so the output changes only on state transitions.
 
-7.	Q: How is the reset signal used in FSM?
- A: The reset initializes the FSM to its starting (idle) state before operation begins.
+    ○	In a Mealy detector, the output can change immediately with the input, resulting in faster detection.
 
-8.	Q: How can overlapping sequences be detected in FSM?
- A: Overlapping sequences are detected by designing the FSM to reuse previous matched bits as part of the next sequence.
+5.	Why do we use state diagrams in FSM design?
 
-9.	Q: What is the advantage of using behavioral modeling for FSMs?
- A: Behavioral modeling simplifies design by allowing the use of high-level constructs like if-else and case statements, making code more readable and maintainable.
+    State diagrams visually represent all possible states, transitions, and outputs, helping in systematic FSM design.
 
-10.	Q: Give some practical applications of FSMs.
- A: FSMs are used in traffic light controllers, vending machines, sequence detectors, communication protocols, and control systems.
+6.	What is the role of the clock in FSM?
+ 
+    The clock synchronizes state transitions, ensuring all changes occur at defined intervals.
 
-INFERENCE:
+7.	How is the reset signal used in FSM?
+
+    The reset initializes the FSM to its starting (idle) state before operation begins.
+
+8.	How can overlapping sequences be detected in FSM?
+ 
+   Overlapping sequences are detected by designing the FSM to reuse previous matched bits as part of the next sequence.
+
+9.	What is the advantage of using behavioral modeling for FSMs?
+
+   Behavioral modeling simplifies design by allowing the use of high-level constructs like if-else and case statements, making code more readable and maintainable.
+
+10.	Give some practical applications of FSMs.
+
+    FSMs are used in traffic light controllers, vending machines, sequence detectors, communication protocols, and control systems.
+
+**INFERENCE:**
+
 The Finite-State Machine (FSM) for detecting a specific serial bit sequence was successfully designed, simulated, and synthesized using Verilog HDL. The output waveform confirmed that the FSM correctly identified the given sequence and demonstrated proper state transitions
 
 
